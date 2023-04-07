@@ -1,0 +1,339 @@
+[2023-03-21 03:46:22] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-21 03:46:22] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-21 03:46:22] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-21 03:46:22] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-21 03:46:22] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-21 03:46:22] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-21 03:46:22] - INFO: ###  device = cpu
+[2023-03-21 03:46:22] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-21 03:46:22] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-21 03:46:22] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-21 03:46:22] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-21 03:46:22] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-21 03:46:22] - INFO: ###  split_sep = _!_
+[2023-03-21 03:46:22] - INFO: ###  is_sample_shuffle = True
+[2023-03-21 03:46:22] - INFO: ###  batch_size = 64
+[2023-03-21 03:46:22] - INFO: ###  max_sen_len = None
+[2023-03-21 03:46:22] - INFO: ###  num_labels = 13
+[2023-03-21 03:46:22] - INFO: ###  epochs = 8
+[2023-03-21 03:46:22] - INFO: ###  model_val_per_epoch = 2
+[2023-03-21 03:46:22] - INFO: ###  vocab_size = 21128
+[2023-03-21 03:46:22] - INFO: ###  hidden_size = 768
+[2023-03-21 03:46:22] - INFO: ###  num_hidden_layers = 12
+[2023-03-21 03:46:22] - INFO: ###  num_attention_heads = 12
+[2023-03-21 03:46:22] - INFO: ###  hidden_act = gelu
+[2023-03-21 03:46:22] - INFO: ###  intermediate_size = 3072
+[2023-03-21 03:46:22] - INFO: ###  pad_token_id = 0
+[2023-03-21 03:46:22] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-21 03:46:22] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-21 03:46:22] - INFO: ###  max_position_embeddings = 512
+[2023-03-21 03:46:22] - INFO: ###  type_vocab_size = 2
+[2023-03-21 03:46:22] - INFO: ###  initializer_range = 0.02
+[2023-03-21 03:46:22] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-21 03:46:22] - INFO: ###  directionality = bidi
+[2023-03-21 03:46:22] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-21 03:46:22] - INFO: ###  model_type = bert
+[2023-03-21 03:46:22] - INFO: ###  pooler_fc_size = 768
+[2023-03-21 03:46:22] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-21 03:46:22] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-21 03:46:22] - INFO: ###  pooler_size_per_head = 128
+[2023-03-21 03:46:22] - INFO: ###  pooler_type = first_token_transform
+[2023-03-21 03:46:25] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 03:46:26] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-21 03:46:26] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-21 03:46:26] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-21 03:46:46] - INFO: Epoch: 0, Batch[0/13], Train loss :2.548, Train acc: 0.094
+[2023-03-21 03:49:55] - INFO: Epoch: 0, Batch[10/13], Train loss :1.563, Train acc: 0.562
+[2023-03-21 03:50:15] - INFO: Epoch: 0, Train loss: 1.793, Epoch time = 228.503s
+[2023-03-21 03:50:33] - INFO: Epoch: 1, Batch[0/13], Train loss :1.753, Train acc: 0.484
+[2023-03-21 03:53:37] - INFO: Epoch: 1, Batch[10/13], Train loss :1.296, Train acc: 0.672
+[2023-03-21 03:53:57] - INFO: Epoch: 1, Train loss: 1.567, Epoch time = 222.020s
+[2023-03-21 03:54:14] - INFO: Accuracy on val 0.611
+[2023-03-21 03:54:32] - INFO: Epoch: 2, Batch[0/13], Train loss :1.278, Train acc: 0.609
+[2023-03-21 03:57:35] - INFO: Epoch: 2, Batch[10/13], Train loss :1.270, Train acc: 0.625
+[2023-03-21 03:57:54] - INFO: Epoch: 2, Train loss: 1.362, Epoch time = 219.670s
+[2023-03-21 03:58:12] - INFO: Epoch: 3, Batch[0/13], Train loss :1.067, Train acc: 0.719
+[2023-03-21 04:01:15] - INFO: Epoch: 3, Batch[10/13], Train loss :1.100, Train acc: 0.641
+[2023-03-21 04:01:34] - INFO: Epoch: 3, Train loss: 1.096, Epoch time = 219.974s
+[2023-03-21 04:01:51] - INFO: Accuracy on val 0.697
+[2023-03-21 04:02:10] - INFO: Epoch: 4, Batch[0/13], Train loss :1.024, Train acc: 0.734
+[2023-03-21 04:05:12] - INFO: Epoch: 4, Batch[10/13], Train loss :1.040, Train acc: 0.703
+[2023-03-21 04:05:32] - INFO: Epoch: 4, Train loss: 0.968, Epoch time = 220.298s
+[2023-03-21 04:05:50] - INFO: Epoch: 5, Batch[0/13], Train loss :0.764, Train acc: 0.750
+[2023-03-21 04:08:53] - INFO: Epoch: 5, Batch[10/13], Train loss :0.605, Train acc: 0.781
+[2023-03-21 04:09:13] - INFO: Epoch: 5, Train loss: 0.779, Epoch time = 220.425s
+[2023-03-21 04:09:30] - INFO: Accuracy on val 0.636
+[2023-03-21 04:09:48] - INFO: Epoch: 6, Batch[0/13], Train loss :0.768, Train acc: 0.734
+[2023-03-21 04:12:51] - INFO: Epoch: 6, Batch[10/13], Train loss :0.554, Train acc: 0.828
+[2023-03-21 04:13:11] - INFO: Epoch: 6, Train loss: 0.748, Epoch time = 220.807s
+[2023-03-21 04:13:29] - INFO: Epoch: 7, Batch[0/13], Train loss :0.649, Train acc: 0.750
+[2023-03-21 04:16:33] - INFO: Epoch: 7, Batch[10/13], Train loss :0.642, Train acc: 0.781
+[2023-03-21 04:16:53] - INFO: Epoch: 7, Train loss: 0.622, Epoch time = 222.194s
+[2023-03-21 04:17:11] - INFO: Accuracy on val 0.641
+[2023-03-21 04:17:12] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 04:17:12] - INFO: ## 成功载入已有模型，进行预测......
+[2023-03-21 04:17:12] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-21 04:17:12] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-21 04:17:13] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-21 04:17:30] - INFO: Acc on test:0.697
+[2023-03-21 05:05:38] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-21 05:05:38] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-21 05:05:38] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-21 05:05:38] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-21 05:05:38] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-21 05:05:38] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-21 05:05:38] - INFO: ###  device = cpu
+[2023-03-21 05:05:38] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-21 05:05:38] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-21 05:05:38] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-21 05:05:38] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-21 05:05:38] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-21 05:05:38] - INFO: ###  split_sep = _!_
+[2023-03-21 05:05:38] - INFO: ###  is_sample_shuffle = True
+[2023-03-21 05:05:38] - INFO: ###  batch_size = 64
+[2023-03-21 05:05:38] - INFO: ###  max_sen_len = None
+[2023-03-21 05:05:38] - INFO: ###  num_labels = 13
+[2023-03-21 05:05:38] - INFO: ###  epochs = 8
+[2023-03-21 05:05:38] - INFO: ###  model_val_per_epoch = 2
+[2023-03-21 05:05:38] - INFO: ###  vocab_size = 21128
+[2023-03-21 05:05:38] - INFO: ###  hidden_size = 768
+[2023-03-21 05:05:38] - INFO: ###  num_hidden_layers = 12
+[2023-03-21 05:05:38] - INFO: ###  num_attention_heads = 12
+[2023-03-21 05:05:38] - INFO: ###  hidden_act = gelu
+[2023-03-21 05:05:38] - INFO: ###  intermediate_size = 3072
+[2023-03-21 05:05:38] - INFO: ###  pad_token_id = 0
+[2023-03-21 05:05:38] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-21 05:05:38] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-21 05:05:38] - INFO: ###  max_position_embeddings = 512
+[2023-03-21 05:05:38] - INFO: ###  type_vocab_size = 2
+[2023-03-21 05:05:38] - INFO: ###  initializer_range = 0.02
+[2023-03-21 05:05:38] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-21 05:05:38] - INFO: ###  directionality = bidi
+[2023-03-21 05:05:38] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-21 05:05:38] - INFO: ###  model_type = bert
+[2023-03-21 05:05:38] - INFO: ###  pooler_fc_size = 768
+[2023-03-21 05:05:38] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-21 05:05:38] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-21 05:05:38] - INFO: ###  pooler_size_per_head = 128
+[2023-03-21 05:05:38] - INFO: ###  pooler_type = first_token_transform
+[2023-03-21 05:05:41] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 05:05:44] - INFO: ## 成功载入已有模型，进行预测......
+[2023-03-21 05:05:45] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-21 05:05:45] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-21 05:05:45] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-21 05:06:04] - INFO: Acc on test:0.697
+[2023-03-21 19:33:03] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-21 19:33:03] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-21 19:33:03] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-21 19:33:03] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-21 19:33:03] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-21 19:33:03] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-21 19:33:03] - INFO: ###  device = cpu
+[2023-03-21 19:33:03] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-21 19:33:03] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-21 19:33:03] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-21 19:33:03] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-21 19:33:03] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-21 19:33:03] - INFO: ###  split_sep = _!_
+[2023-03-21 19:33:03] - INFO: ###  is_sample_shuffle = True
+[2023-03-21 19:33:03] - INFO: ###  batch_size = 64
+[2023-03-21 19:33:03] - INFO: ###  max_sen_len = None
+[2023-03-21 19:33:03] - INFO: ###  num_labels = 13
+[2023-03-21 19:33:03] - INFO: ###  epochs = 8
+[2023-03-21 19:33:03] - INFO: ###  model_val_per_epoch = 2
+[2023-03-21 19:33:03] - INFO: ###  vocab_size = 21128
+[2023-03-21 19:33:03] - INFO: ###  hidden_size = 768
+[2023-03-21 19:33:03] - INFO: ###  num_hidden_layers = 12
+[2023-03-21 19:33:03] - INFO: ###  num_attention_heads = 12
+[2023-03-21 19:33:03] - INFO: ###  hidden_act = gelu
+[2023-03-21 19:33:03] - INFO: ###  intermediate_size = 3072
+[2023-03-21 19:33:03] - INFO: ###  pad_token_id = 0
+[2023-03-21 19:33:03] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-21 19:33:03] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-21 19:33:03] - INFO: ###  max_position_embeddings = 512
+[2023-03-21 19:33:03] - INFO: ###  type_vocab_size = 2
+[2023-03-21 19:33:03] - INFO: ###  initializer_range = 0.02
+[2023-03-21 19:33:03] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-21 19:33:03] - INFO: ###  directionality = bidi
+[2023-03-21 19:33:03] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-21 19:33:03] - INFO: ###  model_type = bert
+[2023-03-21 19:33:03] - INFO: ###  pooler_fc_size = 768
+[2023-03-21 19:33:03] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-21 19:33:03] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-21 19:33:03] - INFO: ###  pooler_size_per_head = 128
+[2023-03-21 19:33:03] - INFO: ###  pooler_type = first_token_transform
+[2023-03-21 19:33:06] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 19:33:07] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 不存在，重新处理并缓存！
+[2023-03-21 19:33:07] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 不存在，重新处理并缓存！
+[2023-03-21 19:33:09] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 不存在，重新处理并缓存！
+[2023-03-21 19:37:26] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-21 19:37:26] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-21 19:37:26] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-21 19:37:26] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-21 19:37:26] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-21 19:37:26] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-21 19:37:26] - INFO: ###  device = cpu
+[2023-03-21 19:37:26] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-21 19:37:26] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-21 19:37:26] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-21 19:37:26] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-21 19:37:26] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-21 19:37:26] - INFO: ###  split_sep = _!_
+[2023-03-21 19:37:26] - INFO: ###  is_sample_shuffle = True
+[2023-03-21 19:37:26] - INFO: ###  batch_size = 64
+[2023-03-21 19:37:26] - INFO: ###  max_sen_len = None
+[2023-03-21 19:37:26] - INFO: ###  num_labels = 8191
+[2023-03-21 19:37:26] - INFO: ###  epochs = 8
+[2023-03-21 19:37:26] - INFO: ###  model_val_per_epoch = 2
+[2023-03-21 19:37:26] - INFO: ###  vocab_size = 21128
+[2023-03-21 19:37:26] - INFO: ###  hidden_size = 768
+[2023-03-21 19:37:26] - INFO: ###  num_hidden_layers = 12
+[2023-03-21 19:37:26] - INFO: ###  num_attention_heads = 12
+[2023-03-21 19:37:26] - INFO: ###  hidden_act = gelu
+[2023-03-21 19:37:26] - INFO: ###  intermediate_size = 3072
+[2023-03-21 19:37:26] - INFO: ###  pad_token_id = 0
+[2023-03-21 19:37:26] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-21 19:37:26] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-21 19:37:26] - INFO: ###  max_position_embeddings = 512
+[2023-03-21 19:37:26] - INFO: ###  type_vocab_size = 2
+[2023-03-21 19:37:26] - INFO: ###  initializer_range = 0.02
+[2023-03-21 19:37:26] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-21 19:37:26] - INFO: ###  directionality = bidi
+[2023-03-21 19:37:26] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-21 19:37:26] - INFO: ###  model_type = bert
+[2023-03-21 19:37:26] - INFO: ###  pooler_fc_size = 768
+[2023-03-21 19:37:26] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-21 19:37:26] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-21 19:37:26] - INFO: ###  pooler_size_per_head = 128
+[2023-03-21 19:37:26] - INFO: ###  pooler_type = first_token_transform
+[2023-03-21 19:37:28] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 19:37:28] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-21 19:37:28] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-21 19:37:28] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-21 19:38:40] - INFO: Epoch: 0, Batch[0/11], Train loss :9.233, Train acc: 0.000
+[2023-03-21 19:50:11] - INFO: Epoch: 0, Batch[10/11], Train loss :6.879, Train acc: 0.500
+[2023-03-21 19:50:11] - INFO: Epoch: 0, Train loss: 7.646, Epoch time = 762.792s
+[2023-03-21 19:51:22] - INFO: Epoch: 1, Batch[0/11], Train loss :6.484, Train acc: 0.594
+[2023-03-21 20:02:45] - INFO: Epoch: 1, Batch[10/11], Train loss :5.013, Train acc: 0.521
+[2023-03-21 20:02:45] - INFO: Epoch: 1, Train loss: 5.331, Epoch time = 753.657s
+[2023-03-21 20:03:41] - INFO: Accuracy on val 0.610
+[2023-03-21 20:04:53] - INFO: Epoch: 2, Batch[0/11], Train loss :4.567, Train acc: 0.578
+[2023-03-21 20:25:50] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-21 20:25:50] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-21 20:25:50] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-21 20:25:50] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-21 20:25:50] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-21 20:25:50] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-21 20:25:50] - INFO: ###  device = cpu
+[2023-03-21 20:25:50] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-21 20:25:50] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-21 20:25:50] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-21 20:25:50] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-21 20:25:50] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-21 20:25:50] - INFO: ###  split_sep = _!_
+[2023-03-21 20:25:50] - INFO: ###  is_sample_shuffle = True
+[2023-03-21 20:25:50] - INFO: ###  batch_size = 64
+[2023-03-21 20:25:50] - INFO: ###  max_sen_len = None
+[2023-03-21 20:25:50] - INFO: ###  num_labels = 8191
+[2023-03-21 20:25:50] - INFO: ###  epochs = 8
+[2023-03-21 20:25:50] - INFO: ###  model_val_per_epoch = 2
+[2023-03-21 20:25:50] - INFO: ###  vocab_size = 21128
+[2023-03-21 20:25:50] - INFO: ###  hidden_size = 768
+[2023-03-21 20:25:50] - INFO: ###  num_hidden_layers = 12
+[2023-03-21 20:25:50] - INFO: ###  num_attention_heads = 12
+[2023-03-21 20:25:50] - INFO: ###  hidden_act = gelu
+[2023-03-21 20:25:50] - INFO: ###  intermediate_size = 3072
+[2023-03-21 20:25:50] - INFO: ###  pad_token_id = 0
+[2023-03-21 20:25:50] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-21 20:25:50] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-21 20:25:50] - INFO: ###  max_position_embeddings = 512
+[2023-03-21 20:25:50] - INFO: ###  type_vocab_size = 2
+[2023-03-21 20:25:50] - INFO: ###  initializer_range = 0.02
+[2023-03-21 20:25:50] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-21 20:25:50] - INFO: ###  directionality = bidi
+[2023-03-21 20:25:50] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-21 20:25:50] - INFO: ###  model_type = bert
+[2023-03-21 20:25:50] - INFO: ###  pooler_fc_size = 768
+[2023-03-21 20:25:50] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-21 20:25:50] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-21 20:25:50] - INFO: ###  pooler_size_per_head = 128
+[2023-03-21 20:25:50] - INFO: ###  pooler_type = first_token_transform
+[2023-03-21 20:25:53] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 20:25:54] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-21 20:25:55] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-21 20:25:55] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-21 20:26:17] - INFO: Epoch: 0, Batch[0/11], Train loss :9.038, Train acc: 0.000
+[2023-03-21 20:29:44] - INFO: Epoch: 0, Batch[10/11], Train loss :5.403, Train acc: 0.708
+[2023-03-21 20:29:44] - INFO: Epoch: 0, Train loss: 7.072, Epoch time = 229.273s
+[2023-03-21 20:30:06] - INFO: Epoch: 1, Batch[0/11], Train loss :5.951, Train acc: 0.531
+[2023-03-21 20:33:26] - INFO: Epoch: 1, Batch[10/11], Train loss :3.837, Train acc: 0.646
+[2023-03-21 20:33:26] - INFO: Epoch: 1, Train loss: 4.700, Epoch time = 222.191s
+[2023-03-21 20:33:45] - INFO: Accuracy on val 0.610
+[2023-03-21 20:34:04] - INFO: Epoch: 2, Batch[0/11], Train loss :4.119, Train acc: 0.594
+[2023-03-21 20:37:23] - INFO: Epoch: 2, Batch[10/11], Train loss :2.947, Train acc: 0.688
+[2023-03-21 20:37:23] - INFO: Epoch: 2, Train loss: 3.628, Epoch time = 217.244s
+[2023-03-21 20:37:42] - INFO: Epoch: 3, Batch[0/11], Train loss :4.115, Train acc: 0.516
+[2023-03-21 20:41:04] - INFO: Epoch: 3, Batch[10/11], Train loss :2.849, Train acc: 0.646
+[2023-03-21 20:41:04] - INFO: Epoch: 3, Train loss: 3.221, Epoch time = 221.072s
+[2023-03-21 20:41:22] - INFO: Accuracy on val 0.610
+[2023-03-21 20:41:42] - INFO: Epoch: 4, Batch[0/11], Train loss :3.128, Train acc: 0.594
+[2023-03-21 20:45:05] - INFO: Epoch: 4, Batch[10/11], Train loss :2.612, Train acc: 0.646
+[2023-03-21 20:45:05] - INFO: Epoch: 4, Train loss: 2.876, Epoch time = 223.367s
+[2023-03-21 20:45:26] - INFO: Epoch: 5, Batch[0/11], Train loss :2.356, Train acc: 0.672
+[2023-03-21 20:48:38] - INFO: Epoch: 5, Batch[10/11], Train loss :2.492, Train acc: 0.604
+[2023-03-21 20:48:38] - INFO: Epoch: 5, Train loss: 2.538, Epoch time = 213.292s
+[2023-03-21 20:48:56] - INFO: Accuracy on val 0.610
+[2023-03-21 20:49:17] - INFO: Epoch: 6, Batch[0/11], Train loss :2.566, Train acc: 0.547
+[2023-03-21 20:52:48] - INFO: Epoch: 6, Batch[10/11], Train loss :2.483, Train acc: 0.583
+[2023-03-21 20:52:48] - INFO: Epoch: 6, Train loss: 2.227, Epoch time = 231.873s
+[2023-03-21 20:53:10] - INFO: Epoch: 7, Batch[0/11], Train loss :1.711, Train acc: 0.703
+[2023-03-21 20:56:46] - INFO: Epoch: 7, Batch[10/11], Train loss :1.914, Train acc: 0.646
+[2023-03-21 20:56:46] - INFO: Epoch: 7, Train loss: 1.929, Epoch time = 238.251s
+[2023-03-21 20:57:04] - INFO: Accuracy on val 0.610
+[2023-03-21 20:57:05] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-21 20:57:06] - INFO: ## 成功载入已有模型，进行预测......
+[2023-03-21 20:57:06] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-21 20:57:06] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-21 20:57:06] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-21 20:57:14] - INFO: Acc on test:0.726
+[2023-03-21 21:26:49] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-21 21:26:49] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-21 21:26:49] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-21 21:26:49] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-21 21:26:49] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-21 21:26:49] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-21 21:26:49] - INFO: ###  device = cpu
+[2023-03-21 21:26:49] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-21 21:26:49] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-21 21:26:49] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-21 21:26:49] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-21 21:26:49] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-21 21:26:49] - INFO: ###  split_sep = _!_
+[2023-03-21 21:26:49] - INFO: ###  is_sample_shuffle = True
+[2023-03-21 21:26:49] - INFO: ###  batch_size = 64
+[2023-03-21 21:26:49] - INFO: ###  max_sen_len = None
+[2023-03-21 21:26:49] - INFO: ###  num_labels = 13
+[2023-03-21 21:26:49] - INFO: ###  epochs = 8
+[2023-03-21 21:26:49] - INFO: ###  model_val_per_epoch = 2
+[2023-03-21 21:26:49] - INFO: ###  vocab_size = 21128
+[2023-03-21 21:26:49] - INFO: ###  hidden_size = 768
+[2023-03-21 21:26:49] - INFO: ###  num_hidden_layers = 12
+[2023-03-21 21:26:49] - INFO: ###  num_attention_heads = 12
+[2023-03-21 21:26:49] - INFO: ###  hidden_act = gelu
+[2023-03-21 21:26:49] - INFO: ###  intermediate_size = 3072
+[2023-03-21 21:26:49] - INFO: ###  pad_token_id = 0
+[2023-03-21 21:26:49] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-21 21:26:49] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-21 21:26:49] - INFO: ###  max_position_embeddings = 512
+[2023-03-21 21:26:49] - INFO: ###  type_vocab_size = 2
+[2023-03-21 21:26:49] - INFO: ###  initializer_range = 0.02
+[2023-03-21 21:26:49] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-21 21:26:49] - INFO: ###  directionality = bidi
+[2023-03-21 21:26:49] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-21 21:26:49] - INFO: ###  model_type = bert
+[2023-03-21 21:26:49] - INFO: ###  pooler_fc_size = 768
+[2023-03-21 21:26:49] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-21 21:26:49] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-21 21:26:49] - INFO: ###  pooler_size_per_head = 128
+[2023-03-21 21:26:49] - INFO: ###  pooler_type = first_token_transform
+[2023-03-21 21:26:52] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现

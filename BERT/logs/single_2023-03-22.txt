@@ -1,0 +1,691 @@
+[2023-03-22 01:41:16] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-22 01:41:16] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-22 01:41:16] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-22 01:41:16] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-22 01:41:16] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-22 01:41:16] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-22 01:41:16] - INFO: ###  device = cpu
+[2023-03-22 01:41:16] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-22 01:41:16] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-22 01:41:16] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-22 01:41:16] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-22 01:41:16] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-22 01:41:16] - INFO: ###  split_sep = _!_
+[2023-03-22 01:41:16] - INFO: ###  is_sample_shuffle = True
+[2023-03-22 01:41:16] - INFO: ###  batch_size = 64
+[2023-03-22 01:41:16] - INFO: ###  max_sen_len = None
+[2023-03-22 01:41:16] - INFO: ###  num_labels = 2
+[2023-03-22 01:41:16] - INFO: ###  epochs = 8
+[2023-03-22 01:41:16] - INFO: ###  model_val_per_epoch = 2
+[2023-03-22 01:41:16] - INFO: ###  vocab_size = 21128
+[2023-03-22 01:41:16] - INFO: ###  hidden_size = 768
+[2023-03-22 01:41:16] - INFO: ###  num_hidden_layers = 12
+[2023-03-22 01:41:16] - INFO: ###  num_attention_heads = 12
+[2023-03-22 01:41:16] - INFO: ###  hidden_act = gelu
+[2023-03-22 01:41:16] - INFO: ###  intermediate_size = 3072
+[2023-03-22 01:41:16] - INFO: ###  pad_token_id = 0
+[2023-03-22 01:41:16] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-22 01:41:16] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-22 01:41:16] - INFO: ###  max_position_embeddings = 512
+[2023-03-22 01:41:16] - INFO: ###  type_vocab_size = 2
+[2023-03-22 01:41:16] - INFO: ###  initializer_range = 0.02
+[2023-03-22 01:41:16] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-22 01:41:16] - INFO: ###  directionality = bidi
+[2023-03-22 01:41:16] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-22 01:41:16] - INFO: ###  model_type = bert
+[2023-03-22 01:41:16] - INFO: ###  pooler_fc_size = 768
+[2023-03-22 01:41:16] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-22 01:41:16] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-22 01:41:16] - INFO: ###  pooler_size_per_head = 128
+[2023-03-22 01:41:16] - INFO: ###  pooler_type = first_token_transform
+[2023-03-22 01:41:19] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 01:41:20] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 不存在，重新处理并缓存！
+[2023-03-22 01:41:21] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 不存在，重新处理并缓存！
+[2023-03-22 01:41:21] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 不存在，重新处理并缓存！
+[2023-03-22 01:41:44] - INFO: Epoch: 0, Batch[0/1], Train loss :0.658, Train acc: 0.678
+[2023-03-22 01:41:44] - INFO: Epoch: 0, Train loss: 0.658, Epoch time = 23.290s
+[2023-03-22 01:42:06] - INFO: Epoch: 1, Batch[0/1], Train loss :0.575, Train acc: 0.746
+[2023-03-22 01:42:06] - INFO: Epoch: 1, Train loss: 0.575, Epoch time = 21.782s
+[2023-03-22 01:42:08] - INFO: y_type:torch.LongTensor
+[2023-03-22 01:42:08] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 01:42:08] - INFO: Accuracy on val 0.643
+[2023-03-22 01:42:29] - INFO: Epoch: 2, Batch[0/1], Train loss :0.566, Train acc: 0.746
+[2023-03-22 01:42:29] - INFO: Epoch: 2, Train loss: 0.566, Epoch time = 21.228s
+[2023-03-22 01:42:52] - INFO: Epoch: 3, Batch[0/1], Train loss :0.528, Train acc: 0.746
+[2023-03-22 01:42:52] - INFO: Epoch: 3, Train loss: 0.528, Epoch time = 22.321s
+[2023-03-22 01:42:53] - INFO: y_type:torch.LongTensor
+[2023-03-22 01:42:53] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 01:42:53] - INFO: Accuracy on val 0.643
+[2023-03-22 01:43:15] - INFO: Epoch: 4, Batch[0/1], Train loss :0.559, Train acc: 0.746
+[2023-03-22 01:43:15] - INFO: Epoch: 4, Train loss: 0.559, Epoch time = 22.064s
+[2023-03-22 01:43:37] - INFO: Epoch: 5, Batch[0/1], Train loss :0.522, Train acc: 0.746
+[2023-03-22 01:43:37] - INFO: Epoch: 5, Train loss: 0.522, Epoch time = 21.652s
+[2023-03-22 01:43:38] - INFO: y_type:torch.LongTensor
+[2023-03-22 01:43:38] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 01:43:38] - INFO: Accuracy on val 0.643
+[2023-03-22 01:44:00] - INFO: Epoch: 6, Batch[0/1], Train loss :0.513, Train acc: 0.746
+[2023-03-22 01:44:00] - INFO: Epoch: 6, Train loss: 0.513, Epoch time = 21.818s
+[2023-03-22 01:44:22] - INFO: Epoch: 7, Batch[0/1], Train loss :0.514, Train acc: 0.746
+[2023-03-22 01:44:22] - INFO: Epoch: 7, Train loss: 0.514, Epoch time = 21.780s
+[2023-03-22 01:44:23] - INFO: y_type:torch.LongTensor
+[2023-03-22 01:44:23] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 01:44:23] - INFO: Accuracy on val 0.643
+[2023-03-22 01:44:25] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 01:44:25] - INFO: ## 成功载入已有模型，进行预测......
+[2023-03-22 01:44:25] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-22 01:44:25] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-22 01:44:25] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-22 01:44:27] - INFO: y_type:torch.LongTensor
+[2023-03-22 01:44:27] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 01:44:27] - INFO: Acc on test:0.643
+[2023-03-22 08:53:40] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-22 08:53:40] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-22 08:53:40] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-22 08:53:40] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-22 08:53:40] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-22 08:53:40] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-22 08:53:40] - INFO: ###  device = cpu
+[2023-03-22 08:53:40] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-22 08:53:40] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-22 08:53:40] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-22 08:53:40] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-22 08:53:40] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-22 08:53:40] - INFO: ###  split_sep = _!_
+[2023-03-22 08:53:40] - INFO: ###  is_sample_shuffle = True
+[2023-03-22 08:53:40] - INFO: ###  batch_size = 96
+[2023-03-22 08:53:40] - INFO: ###  max_sen_len = None
+[2023-03-22 08:53:40] - INFO: ###  num_labels = 2
+[2023-03-22 08:53:40] - INFO: ###  epochs = 8
+[2023-03-22 08:53:40] - INFO: ###  model_val_per_epoch = 2
+[2023-03-22 08:53:40] - INFO: ###  vocab_size = 21128
+[2023-03-22 08:53:40] - INFO: ###  hidden_size = 768
+[2023-03-22 08:53:40] - INFO: ###  num_hidden_layers = 12
+[2023-03-22 08:53:40] - INFO: ###  num_attention_heads = 12
+[2023-03-22 08:53:40] - INFO: ###  hidden_act = gelu
+[2023-03-22 08:53:40] - INFO: ###  intermediate_size = 3072
+[2023-03-22 08:53:40] - INFO: ###  pad_token_id = 0
+[2023-03-22 08:53:40] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-22 08:53:40] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-22 08:53:40] - INFO: ###  max_position_embeddings = 512
+[2023-03-22 08:53:40] - INFO: ###  type_vocab_size = 2
+[2023-03-22 08:53:40] - INFO: ###  initializer_range = 0.02
+[2023-03-22 08:53:40] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-22 08:53:40] - INFO: ###  directionality = bidi
+[2023-03-22 08:53:40] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-22 08:53:40] - INFO: ###  model_type = bert
+[2023-03-22 08:53:40] - INFO: ###  pooler_fc_size = 768
+[2023-03-22 08:53:40] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-22 08:53:40] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-22 08:53:40] - INFO: ###  pooler_size_per_head = 128
+[2023-03-22 08:53:40] - INFO: ###  pooler_type = first_token_transform
+[2023-03-22 08:53:44] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 08:53:46] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-22 08:53:46] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-22 08:53:46] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-22 08:54:05] - INFO: Epoch: 0, Batch[0/1], Train loss :1.392, Train acc: 0.254
+[2023-03-22 08:54:05] - INFO: Epoch: 0, Train loss: 1.392, Epoch time = 19.162s
+[2023-03-22 08:54:22] - INFO: Epoch: 1, Batch[0/1], Train loss :0.652, Train acc: 0.729
+[2023-03-22 08:54:22] - INFO: Epoch: 1, Train loss: 0.652, Epoch time = 17.550s
+[2023-03-22 08:54:24] - INFO: y_type:torch.LongTensor
+[2023-03-22 08:54:24] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 08:54:24] - INFO: Accuracy on val 0.643
+[2023-03-22 08:54:43] - INFO: Epoch: 2, Batch[0/1], Train loss :0.525, Train acc: 0.746
+[2023-03-22 08:54:43] - INFO: Epoch: 2, Train loss: 0.525, Epoch time = 17.914s
+[2023-03-22 08:55:02] - INFO: Epoch: 3, Batch[0/1], Train loss :0.486, Train acc: 0.763
+[2023-03-22 08:55:02] - INFO: Epoch: 3, Train loss: 0.486, Epoch time = 19.301s
+[2023-03-22 08:55:05] - INFO: y_type:torch.LongTensor
+[2023-03-22 08:55:05] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 08:55:05] - INFO: Accuracy on val 0.643
+[2023-03-22 08:55:34] - INFO: Epoch: 4, Batch[0/1], Train loss :0.459, Train acc: 0.797
+[2023-03-22 08:55:34] - INFO: Epoch: 4, Train loss: 0.459, Epoch time = 29.306s
+[2023-03-22 08:56:02] - INFO: Epoch: 5, Batch[0/1], Train loss :0.426, Train acc: 0.847
+[2023-03-22 08:56:02] - INFO: Epoch: 5, Train loss: 0.426, Epoch time = 27.737s
+[2023-03-22 08:56:04] - INFO: y_type:torch.LongTensor
+[2023-03-22 08:56:04] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 08:56:04] - INFO: Accuracy on val 0.714
+[2023-03-22 08:56:41] - INFO: Epoch: 6, Batch[0/1], Train loss :0.373, Train acc: 0.847
+[2023-03-22 08:56:41] - INFO: Epoch: 6, Train loss: 0.373, Epoch time = 36.757s
+[2023-03-22 08:57:12] - INFO: Epoch: 7, Batch[0/1], Train loss :0.317, Train acc: 0.864
+[2023-03-22 08:57:12] - INFO: Epoch: 7, Train loss: 0.317, Epoch time = 30.713s
+[2023-03-22 08:57:13] - INFO: y_type:torch.LongTensor
+[2023-03-22 08:57:13] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 08:57:13] - INFO: Accuracy on val 0.643
+[2023-03-22 08:57:15] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 08:57:16] - INFO: ## 成功载入已有模型，进行预测......
+[2023-03-22 08:57:16] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-22 08:57:16] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-22 08:57:16] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-22 08:57:21] - INFO: y_type:torch.LongTensor
+[2023-03-22 08:57:21] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 08:57:21] - INFO: Acc on test:0.714
+[2023-03-22 14:47:23] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-22 14:47:23] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-22 14:47:23] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-22 14:47:23] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-22 14:47:23] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-22 14:47:23] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-22 14:47:23] - INFO: ###  device = cpu
+[2023-03-22 14:47:23] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-22 14:47:23] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-22 14:47:23] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-22 14:47:23] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-22 14:47:23] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-22 14:47:23] - INFO: ###  split_sep = _!_
+[2023-03-22 14:47:23] - INFO: ###  is_sample_shuffle = True
+[2023-03-22 14:47:23] - INFO: ###  batch_size = 96
+[2023-03-22 14:47:23] - INFO: ###  max_sen_len = None
+[2023-03-22 14:47:23] - INFO: ###  num_labels = 2
+[2023-03-22 14:47:23] - INFO: ###  epochs = 60
+[2023-03-22 14:47:23] - INFO: ###  model_val_per_epoch = 2
+[2023-03-22 14:47:23] - INFO: ###  vocab_size = 21128
+[2023-03-22 14:47:23] - INFO: ###  hidden_size = 768
+[2023-03-22 14:47:23] - INFO: ###  num_hidden_layers = 12
+[2023-03-22 14:47:23] - INFO: ###  num_attention_heads = 12
+[2023-03-22 14:47:23] - INFO: ###  hidden_act = gelu
+[2023-03-22 14:47:23] - INFO: ###  intermediate_size = 3072
+[2023-03-22 14:47:23] - INFO: ###  pad_token_id = 0
+[2023-03-22 14:47:23] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-22 14:47:23] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-22 14:47:23] - INFO: ###  max_position_embeddings = 512
+[2023-03-22 14:47:23] - INFO: ###  type_vocab_size = 2
+[2023-03-22 14:47:23] - INFO: ###  initializer_range = 0.02
+[2023-03-22 14:47:23] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-22 14:47:23] - INFO: ###  directionality = bidi
+[2023-03-22 14:47:23] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-22 14:47:23] - INFO: ###  model_type = bert
+[2023-03-22 14:47:23] - INFO: ###  pooler_fc_size = 768
+[2023-03-22 14:47:23] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-22 14:47:23] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-22 14:47:23] - INFO: ###  pooler_size_per_head = 128
+[2023-03-22 14:47:23] - INFO: ###  pooler_type = first_token_transform
+[2023-03-22 14:47:27] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 14:47:28] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-22 14:47:28] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-22 14:47:28] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-22 14:47:47] - INFO: Epoch: 0, Batch[0/1], Train loss :0.582, Train acc: 0.729
+[2023-03-22 14:47:47] - INFO: Epoch: 0, Train loss: 0.582, Epoch time = 18.798s
+[2023-03-22 14:48:04] - INFO: Epoch: 1, Batch[0/1], Train loss :0.585, Train acc: 0.746
+[2023-03-22 14:48:04] - INFO: Epoch: 1, Train loss: 0.585, Epoch time = 17.600s
+[2023-03-22 14:48:06] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:48:06] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:48:06] - INFO: Accuracy on val 0.643
+[2023-03-22 14:48:24] - INFO: Epoch: 2, Batch[0/1], Train loss :0.481, Train acc: 0.746
+[2023-03-22 14:48:24] - INFO: Epoch: 2, Train loss: 0.481, Epoch time = 17.118s
+[2023-03-22 14:48:41] - INFO: Epoch: 3, Batch[0/1], Train loss :0.459, Train acc: 0.763
+[2023-03-22 14:48:41] - INFO: Epoch: 3, Train loss: 0.459, Epoch time = 16.925s
+[2023-03-22 14:48:43] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:48:43] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:48:43] - INFO: Accuracy on val 0.643
+[2023-03-22 14:49:00] - INFO: Epoch: 4, Batch[0/1], Train loss :0.428, Train acc: 0.763
+[2023-03-22 14:49:00] - INFO: Epoch: 4, Train loss: 0.428, Epoch time = 16.988s
+[2023-03-22 14:49:17] - INFO: Epoch: 5, Batch[0/1], Train loss :0.353, Train acc: 0.847
+[2023-03-22 14:49:17] - INFO: Epoch: 5, Train loss: 0.353, Epoch time = 17.130s
+[2023-03-22 14:49:18] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:49:18] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:49:18] - INFO: Accuracy on val 0.643
+[2023-03-22 14:49:36] - INFO: Epoch: 6, Batch[0/1], Train loss :0.319, Train acc: 0.847
+[2023-03-22 14:49:36] - INFO: Epoch: 6, Train loss: 0.319, Epoch time = 18.004s
+[2023-03-22 14:49:53] - INFO: Epoch: 7, Batch[0/1], Train loss :0.256, Train acc: 0.881
+[2023-03-22 14:49:53] - INFO: Epoch: 7, Train loss: 0.256, Epoch time = 16.549s
+[2023-03-22 14:49:54] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:49:54] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:49:54] - INFO: Accuracy on val 0.643
+[2023-03-22 14:50:11] - INFO: Epoch: 8, Batch[0/1], Train loss :0.235, Train acc: 0.881
+[2023-03-22 14:50:11] - INFO: Epoch: 8, Train loss: 0.235, Epoch time = 16.964s
+[2023-03-22 14:50:28] - INFO: Epoch: 9, Batch[0/1], Train loss :0.209, Train acc: 0.932
+[2023-03-22 14:50:28] - INFO: Epoch: 9, Train loss: 0.209, Epoch time = 17.039s
+[2023-03-22 14:50:30] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:50:30] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:50:30] - INFO: Accuracy on val 0.714
+[2023-03-22 14:50:48] - INFO: Epoch: 10, Batch[0/1], Train loss :0.186, Train acc: 0.983
+[2023-03-22 14:50:48] - INFO: Epoch: 10, Train loss: 0.186, Epoch time = 17.678s
+[2023-03-22 14:51:05] - INFO: Epoch: 11, Batch[0/1], Train loss :0.148, Train acc: 0.983
+[2023-03-22 14:51:05] - INFO: Epoch: 11, Train loss: 0.148, Epoch time = 17.241s
+[2023-03-22 14:51:06] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:51:06] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:51:06] - INFO: Accuracy on val 0.714
+[2023-03-22 14:51:23] - INFO: Epoch: 12, Batch[0/1], Train loss :0.130, Train acc: 1.000
+[2023-03-22 14:51:23] - INFO: Epoch: 12, Train loss: 0.130, Epoch time = 16.814s
+[2023-03-22 14:51:40] - INFO: Epoch: 13, Batch[0/1], Train loss :0.104, Train acc: 1.000
+[2023-03-22 14:51:40] - INFO: Epoch: 13, Train loss: 0.104, Epoch time = 17.002s
+[2023-03-22 14:51:42] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:51:42] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:51:42] - INFO: Accuracy on val 0.714
+[2023-03-22 14:51:59] - INFO: Epoch: 14, Batch[0/1], Train loss :0.092, Train acc: 1.000
+[2023-03-22 14:51:59] - INFO: Epoch: 14, Train loss: 0.092, Epoch time = 17.345s
+[2023-03-22 14:52:17] - INFO: Epoch: 15, Batch[0/1], Train loss :0.083, Train acc: 1.000
+[2023-03-22 14:52:17] - INFO: Epoch: 15, Train loss: 0.083, Epoch time = 17.777s
+[2023-03-22 14:52:18] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:52:18] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:52:18] - INFO: Accuracy on val 0.929
+[2023-03-22 14:52:35] - INFO: Epoch: 16, Batch[0/1], Train loss :0.070, Train acc: 1.000
+[2023-03-22 14:52:35] - INFO: Epoch: 16, Train loss: 0.070, Epoch time = 16.706s
+[2023-03-22 14:52:52] - INFO: Epoch: 17, Batch[0/1], Train loss :0.059, Train acc: 1.000
+[2023-03-22 14:52:52] - INFO: Epoch: 17, Train loss: 0.059, Epoch time = 16.961s
+[2023-03-22 14:52:54] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:52:54] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:52:54] - INFO: Accuracy on val 0.786
+[2023-03-22 14:53:11] - INFO: Epoch: 18, Batch[0/1], Train loss :0.049, Train acc: 1.000
+[2023-03-22 14:53:11] - INFO: Epoch: 18, Train loss: 0.049, Epoch time = 17.202s
+[2023-03-22 14:53:29] - INFO: Epoch: 19, Batch[0/1], Train loss :0.046, Train acc: 1.000
+[2023-03-22 14:53:29] - INFO: Epoch: 19, Train loss: 0.046, Epoch time = 17.865s
+[2023-03-22 14:53:30] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:53:30] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:53:30] - INFO: Accuracy on val 0.857
+[2023-03-22 14:53:47] - INFO: Epoch: 20, Batch[0/1], Train loss :0.038, Train acc: 1.000
+[2023-03-22 14:53:47] - INFO: Epoch: 20, Train loss: 0.038, Epoch time = 16.617s
+[2023-03-22 14:54:04] - INFO: Epoch: 21, Batch[0/1], Train loss :0.028, Train acc: 1.000
+[2023-03-22 14:54:04] - INFO: Epoch: 21, Train loss: 0.028, Epoch time = 16.947s
+[2023-03-22 14:54:05] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:54:05] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:54:05] - INFO: Accuracy on val 0.857
+[2023-03-22 14:54:22] - INFO: Epoch: 22, Batch[0/1], Train loss :0.026, Train acc: 1.000
+[2023-03-22 14:54:22] - INFO: Epoch: 22, Train loss: 0.026, Epoch time = 17.290s
+[2023-03-22 14:54:40] - INFO: Epoch: 23, Batch[0/1], Train loss :0.020, Train acc: 1.000
+[2023-03-22 14:54:40] - INFO: Epoch: 23, Train loss: 0.020, Epoch time = 17.963s
+[2023-03-22 14:54:41] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:54:41] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:54:41] - INFO: Accuracy on val 0.714
+[2023-03-22 14:54:58] - INFO: Epoch: 24, Batch[0/1], Train loss :0.018, Train acc: 1.000
+[2023-03-22 14:54:58] - INFO: Epoch: 24, Train loss: 0.018, Epoch time = 16.603s
+[2023-03-22 14:55:15] - INFO: Epoch: 25, Batch[0/1], Train loss :0.016, Train acc: 1.000
+[2023-03-22 14:55:15] - INFO: Epoch: 25, Train loss: 0.016, Epoch time = 16.887s
+[2023-03-22 14:55:16] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:55:16] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:55:16] - INFO: Accuracy on val 0.643
+[2023-03-22 14:55:34] - INFO: Epoch: 26, Batch[0/1], Train loss :0.012, Train acc: 1.000
+[2023-03-22 14:55:34] - INFO: Epoch: 26, Train loss: 0.012, Epoch time = 17.427s
+[2023-03-22 14:55:51] - INFO: Epoch: 27, Batch[0/1], Train loss :0.009, Train acc: 1.000
+[2023-03-22 14:55:51] - INFO: Epoch: 27, Train loss: 0.009, Epoch time = 17.697s
+[2023-03-22 14:55:53] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:55:53] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:55:53] - INFO: Accuracy on val 0.643
+[2023-03-22 14:56:09] - INFO: Epoch: 28, Batch[0/1], Train loss :0.007, Train acc: 1.000
+[2023-03-22 14:56:09] - INFO: Epoch: 28, Train loss: 0.007, Epoch time = 16.646s
+[2023-03-22 14:56:26] - INFO: Epoch: 29, Batch[0/1], Train loss :0.007, Train acc: 1.000
+[2023-03-22 14:56:26] - INFO: Epoch: 29, Train loss: 0.007, Epoch time = 16.986s
+[2023-03-22 14:56:28] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:56:28] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:56:28] - INFO: Accuracy on val 0.643
+[2023-03-22 14:56:45] - INFO: Epoch: 30, Batch[0/1], Train loss :0.006, Train acc: 1.000
+[2023-03-22 14:56:45] - INFO: Epoch: 30, Train loss: 0.006, Epoch time = 17.700s
+[2023-03-22 14:57:03] - INFO: Epoch: 31, Batch[0/1], Train loss :0.005, Train acc: 1.000
+[2023-03-22 14:57:03] - INFO: Epoch: 31, Train loss: 0.005, Epoch time = 17.425s
+[2023-03-22 14:57:04] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:57:04] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:57:04] - INFO: Accuracy on val 0.714
+[2023-03-22 14:57:21] - INFO: Epoch: 32, Batch[0/1], Train loss :0.005, Train acc: 1.000
+[2023-03-22 14:57:21] - INFO: Epoch: 32, Train loss: 0.005, Epoch time = 16.796s
+[2023-03-22 14:57:38] - INFO: Epoch: 33, Batch[0/1], Train loss :0.004, Train acc: 1.000
+[2023-03-22 14:57:38] - INFO: Epoch: 33, Train loss: 0.004, Epoch time = 17.034s
+[2023-03-22 14:57:39] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:57:39] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:57:39] - INFO: Accuracy on val 0.786
+[2023-03-22 14:57:57] - INFO: Epoch: 34, Batch[0/1], Train loss :0.003, Train acc: 1.000
+[2023-03-22 14:57:57] - INFO: Epoch: 34, Train loss: 0.003, Epoch time = 18.065s
+[2023-03-22 14:58:14] - INFO: Epoch: 35, Batch[0/1], Train loss :0.003, Train acc: 1.000
+[2023-03-22 14:58:14] - INFO: Epoch: 35, Train loss: 0.003, Epoch time = 16.664s
+[2023-03-22 14:58:16] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:58:16] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:58:16] - INFO: Accuracy on val 0.857
+[2023-03-22 14:58:33] - INFO: Epoch: 36, Batch[0/1], Train loss :0.003, Train acc: 1.000
+[2023-03-22 14:58:33] - INFO: Epoch: 36, Train loss: 0.003, Epoch time = 17.180s
+[2023-03-22 14:58:49] - INFO: Epoch: 37, Batch[0/1], Train loss :0.003, Train acc: 1.000
+[2023-03-22 14:58:49] - INFO: Epoch: 37, Train loss: 0.003, Epoch time = 16.710s
+[2023-03-22 14:58:51] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:58:51] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:58:51] - INFO: Accuracy on val 0.857
+[2023-03-22 14:59:08] - INFO: Epoch: 38, Batch[0/1], Train loss :0.002, Train acc: 1.000
+[2023-03-22 14:59:08] - INFO: Epoch: 38, Train loss: 0.002, Epoch time = 17.232s
+[2023-03-22 14:59:25] - INFO: Epoch: 39, Batch[0/1], Train loss :0.002, Train acc: 1.000
+[2023-03-22 14:59:25] - INFO: Epoch: 39, Train loss: 0.002, Epoch time = 16.645s
+[2023-03-22 14:59:26] - INFO: y_type:torch.LongTensor
+[2023-03-22 14:59:26] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 14:59:26] - INFO: Accuracy on val 0.857
+[2023-03-22 14:59:43] - INFO: Epoch: 40, Batch[0/1], Train loss :0.002, Train acc: 1.000
+[2023-03-22 14:59:43] - INFO: Epoch: 40, Train loss: 0.002, Epoch time = 16.698s
+[2023-03-22 14:59:59] - INFO: Epoch: 41, Batch[0/1], Train loss :0.002, Train acc: 1.000
+[2023-03-22 14:59:59] - INFO: Epoch: 41, Train loss: 0.002, Epoch time = 16.653s
+[2023-03-22 15:00:01] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:00:01] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:00:01] - INFO: Accuracy on val 0.857
+[2023-03-22 15:00:17] - INFO: Epoch: 42, Batch[0/1], Train loss :0.002, Train acc: 1.000
+[2023-03-22 15:00:17] - INFO: Epoch: 42, Train loss: 0.002, Epoch time = 16.657s
+[2023-03-22 15:00:34] - INFO: Epoch: 43, Batch[0/1], Train loss :0.002, Train acc: 1.000
+[2023-03-22 15:00:34] - INFO: Epoch: 43, Train loss: 0.002, Epoch time = 16.719s
+[2023-03-22 15:00:35] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:00:35] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:00:35] - INFO: Accuracy on val 0.786
+[2023-03-22 15:00:52] - INFO: Epoch: 44, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:00:52] - INFO: Epoch: 44, Train loss: 0.001, Epoch time = 16.653s
+[2023-03-22 15:01:09] - INFO: Epoch: 45, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:01:09] - INFO: Epoch: 45, Train loss: 0.001, Epoch time = 16.657s
+[2023-03-22 15:01:10] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:01:10] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:01:10] - INFO: Accuracy on val 0.714
+[2023-03-22 15:01:27] - INFO: Epoch: 46, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:01:27] - INFO: Epoch: 46, Train loss: 0.001, Epoch time = 16.802s
+[2023-03-22 15:01:44] - INFO: Epoch: 47, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:01:44] - INFO: Epoch: 47, Train loss: 0.001, Epoch time = 16.837s
+[2023-03-22 15:01:45] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:01:45] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:01:45] - INFO: Accuracy on val 0.714
+[2023-03-22 15:02:03] - INFO: Epoch: 48, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:02:03] - INFO: Epoch: 48, Train loss: 0.001, Epoch time = 18.334s
+[2023-03-22 15:02:22] - INFO: Epoch: 49, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:02:22] - INFO: Epoch: 49, Train loss: 0.001, Epoch time = 18.353s
+[2023-03-22 15:02:23] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:02:23] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:02:23] - INFO: Accuracy on val 0.714
+[2023-03-22 15:02:41] - INFO: Epoch: 50, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:02:41] - INFO: Epoch: 50, Train loss: 0.001, Epoch time = 17.572s
+[2023-03-22 15:02:57] - INFO: Epoch: 51, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:02:57] - INFO: Epoch: 51, Train loss: 0.001, Epoch time = 16.557s
+[2023-03-22 15:02:59] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:02:59] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:02:59] - INFO: Accuracy on val 0.714
+[2023-03-22 15:03:16] - INFO: Epoch: 52, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:03:16] - INFO: Epoch: 52, Train loss: 0.001, Epoch time = 17.257s
+[2023-03-22 15:03:33] - INFO: Epoch: 53, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:03:33] - INFO: Epoch: 53, Train loss: 0.001, Epoch time = 16.715s
+[2023-03-22 15:03:34] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:03:34] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:03:34] - INFO: Accuracy on val 0.714
+[2023-03-22 15:03:51] - INFO: Epoch: 54, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:03:51] - INFO: Epoch: 54, Train loss: 0.001, Epoch time = 16.873s
+[2023-03-22 15:04:08] - INFO: Epoch: 55, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:04:08] - INFO: Epoch: 55, Train loss: 0.001, Epoch time = 17.104s
+[2023-03-22 15:04:09] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:04:09] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:04:09] - INFO: Accuracy on val 0.714
+[2023-03-22 15:04:27] - INFO: Epoch: 56, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:04:27] - INFO: Epoch: 56, Train loss: 0.001, Epoch time = 17.162s
+[2023-03-22 15:04:44] - INFO: Epoch: 57, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:04:44] - INFO: Epoch: 57, Train loss: 0.001, Epoch time = 17.398s
+[2023-03-22 15:04:45] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:04:45] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:04:45] - INFO: Accuracy on val 0.714
+[2023-03-22 15:05:03] - INFO: Epoch: 58, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:05:03] - INFO: Epoch: 58, Train loss: 0.001, Epoch time = 17.524s
+[2023-03-22 15:05:20] - INFO: Epoch: 59, Batch[0/1], Train loss :0.001, Train acc: 1.000
+[2023-03-22 15:05:20] - INFO: Epoch: 59, Train loss: 0.001, Epoch time = 16.780s
+[2023-03-22 15:05:21] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:05:21] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:05:21] - INFO: Accuracy on val 0.714
+[2023-03-22 15:05:23] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 15:05:23] - INFO: ## 成功载入已有模型，进行预测......
+[2023-03-22 15:05:23] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-22 15:05:23] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-22 15:05:23] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-22 15:05:25] - INFO: y_type:torch.LongTensor
+[2023-03-22 15:05:25] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 15:05:25] - INFO: Acc on test:0.929
+[2023-03-22 19:30:17] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-22 19:30:17] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-22 19:30:17] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-22 19:30:17] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-22 19:30:17] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-22 19:30:17] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-22 19:30:17] - INFO: ###  device = cpu
+[2023-03-22 19:30:17] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-22 19:30:17] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-22 19:30:17] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-22 19:30:17] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-22 19:30:17] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-22 19:30:17] - INFO: ###  split_sep = _!_
+[2023-03-22 19:30:17] - INFO: ###  is_sample_shuffle = True
+[2023-03-22 19:30:17] - INFO: ###  batch_size = 96
+[2023-03-22 19:30:17] - INFO: ###  max_sen_len = None
+[2023-03-22 19:30:17] - INFO: ###  num_labels = 2
+[2023-03-22 19:30:17] - INFO: ###  epochs = 200
+[2023-03-22 19:30:17] - INFO: ###  model_val_per_epoch = 2
+[2023-03-22 19:30:17] - INFO: ###  vocab_size = 21128
+[2023-03-22 19:30:17] - INFO: ###  hidden_size = 768
+[2023-03-22 19:30:17] - INFO: ###  num_hidden_layers = 12
+[2023-03-22 19:30:17] - INFO: ###  num_attention_heads = 12
+[2023-03-22 19:30:17] - INFO: ###  hidden_act = gelu
+[2023-03-22 19:30:17] - INFO: ###  intermediate_size = 3072
+[2023-03-22 19:30:17] - INFO: ###  pad_token_id = 0
+[2023-03-22 19:30:17] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-22 19:30:17] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-22 19:30:17] - INFO: ###  max_position_embeddings = 512
+[2023-03-22 19:30:17] - INFO: ###  type_vocab_size = 2
+[2023-03-22 19:30:17] - INFO: ###  initializer_range = 0.02
+[2023-03-22 19:30:17] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-22 19:30:17] - INFO: ###  directionality = bidi
+[2023-03-22 19:30:17] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-22 19:30:17] - INFO: ###  model_type = bert
+[2023-03-22 19:30:17] - INFO: ###  pooler_fc_size = 768
+[2023-03-22 19:30:17] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-22 19:30:17] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-22 19:30:17] - INFO: ###  pooler_size_per_head = 128
+[2023-03-22 19:30:17] - INFO: ###  pooler_type = first_token_transform
+[2023-03-22 19:30:20] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 19:30:23] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 不存在，重新处理并缓存！
+[2023-03-22 19:30:23] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 不存在，重新处理并缓存！
+[2023-03-22 19:30:25] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 不存在，重新处理并缓存！
+[2023-03-22 19:40:36] - INFO: 成功导入BERT配置文件 /project/chenjingdan/huaqi/BERT/bert_base_chinese/config.json
+[2023-03-22 19:40:36] - INFO:  ### 将当前配置打印到日志文件中 
+[2023-03-22 19:40:36] - INFO: ###  project_dir = /project/chenjingdan/huaqi/BERT
+[2023-03-22 19:40:36] - INFO: ###  dataset_dir = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification
+[2023-03-22 19:40:36] - INFO: ###  pretrained_model_dir = /project/chenjingdan/huaqi/BERT/bert_base_chinese
+[2023-03-22 19:40:36] - INFO: ###  vocab_path = /project/chenjingdan/huaqi/BERT/bert_base_chinese/vocab.txt
+[2023-03-22 19:40:36] - INFO: ###  device = cpu
+[2023-03-22 19:40:36] - INFO: ###  train_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-22 19:40:36] - INFO: ###  val_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-22 19:40:36] - INFO: ###  test_file_path = /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-22 19:40:36] - INFO: ###  model_save_dir = /project/chenjingdan/huaqi/BERT/cache
+[2023-03-22 19:40:36] - INFO: ###  logs_save_dir = /project/chenjingdan/huaqi/BERT/logs
+[2023-03-22 19:40:36] - INFO: ###  split_sep = _!_
+[2023-03-22 19:40:36] - INFO: ###  is_sample_shuffle = True
+[2023-03-22 19:40:36] - INFO: ###  batch_size = 96
+[2023-03-22 19:40:36] - INFO: ###  max_sen_len = None
+[2023-03-22 19:40:36] - INFO: ###  num_labels = 8191
+[2023-03-22 19:40:36] - INFO: ###  epochs = 200
+[2023-03-22 19:40:36] - INFO: ###  model_val_per_epoch = 2
+[2023-03-22 19:40:36] - INFO: ###  vocab_size = 21128
+[2023-03-22 19:40:36] - INFO: ###  hidden_size = 768
+[2023-03-22 19:40:36] - INFO: ###  num_hidden_layers = 12
+[2023-03-22 19:40:36] - INFO: ###  num_attention_heads = 12
+[2023-03-22 19:40:36] - INFO: ###  hidden_act = gelu
+[2023-03-22 19:40:36] - INFO: ###  intermediate_size = 3072
+[2023-03-22 19:40:36] - INFO: ###  pad_token_id = 0
+[2023-03-22 19:40:36] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-22 19:40:36] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-22 19:40:36] - INFO: ###  max_position_embeddings = 512
+[2023-03-22 19:40:36] - INFO: ###  type_vocab_size = 2
+[2023-03-22 19:40:36] - INFO: ###  initializer_range = 0.02
+[2023-03-22 19:40:36] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-22 19:40:36] - INFO: ###  directionality = bidi
+[2023-03-22 19:40:36] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-22 19:40:36] - INFO: ###  model_type = bert
+[2023-03-22 19:40:36] - INFO: ###  pooler_fc_size = 768
+[2023-03-22 19:40:36] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-22 19:40:36] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-22 19:40:36] - INFO: ###  pooler_size_per_head = 128
+[2023-03-22 19:40:36] - INFO: ###  pooler_type = first_token_transform
+[2023-03-22 19:40:38] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现
+[2023-03-22 19:40:38] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/test_None.pt 存在，直接载入缓存文件！
+[2023-03-22 19:40:38] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/train_None.pt 存在，直接载入缓存文件！
+[2023-03-22 19:40:38] - INFO: 缓存文件 /project/chenjingdan/huaqi/BERT/data/SingleSentenceClassification/val_None.pt 存在，直接载入缓存文件！
+[2023-03-22 19:41:14] - INFO: Epoch: 0, Batch[0/8], Train loss :8.660, Train acc: 0.000
+[2023-03-22 19:44:54] - INFO: Epoch: 0, Train loss: 7.345, Epoch time = 255.818s
+[2023-03-22 19:45:29] - INFO: Epoch: 1, Batch[0/8], Train loss :6.079, Train acc: 0.615
+[2023-03-22 19:49:08] - INFO: Epoch: 1, Train loss: 5.429, Epoch time = 253.869s
+[2023-03-22 19:49:17] - INFO: y_type:torch.LongTensor
+[2023-03-22 19:49:17] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 19:49:24] - INFO: y_type:torch.LongTensor
+[2023-03-22 19:49:24] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 19:49:24] - INFO: Accuracy on val 0.640
+[2023-03-22 19:50:03] - INFO: Epoch: 2, Batch[0/8], Train loss :4.691, Train acc: 0.604
+[2023-03-22 19:53:48] - INFO: Epoch: 2, Train loss: 4.231, Epoch time = 262.390s
+[2023-03-22 19:54:26] - INFO: Epoch: 3, Batch[0/8], Train loss :3.665, Train acc: 0.646
+[2023-03-22 19:58:14] - INFO: Epoch: 3, Train loss: 3.772, Epoch time = 266.021s
+[2023-03-22 19:58:23] - INFO: y_type:torch.LongTensor
+[2023-03-22 19:58:23] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 19:58:30] - INFO: y_type:torch.LongTensor
+[2023-03-22 19:58:30] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 19:58:30] - INFO: Accuracy on val 0.640
+[2023-03-22 19:59:07] - INFO: Epoch: 4, Batch[0/8], Train loss :3.795, Train acc: 0.562
+[2023-03-22 20:02:58] - INFO: Epoch: 4, Train loss: 3.413, Epoch time = 267.845s
+[2023-03-22 20:03:36] - INFO: Epoch: 5, Batch[0/8], Train loss :3.161, Train acc: 0.625
+[2023-03-22 20:07:26] - INFO: Epoch: 5, Train loss: 2.957, Epoch time = 268.005s
+[2023-03-22 20:07:35] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:07:35] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:07:42] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:07:42] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:07:42] - INFO: Accuracy on val 0.640
+[2023-03-22 20:08:19] - INFO: Epoch: 6, Batch[0/8], Train loss :3.588, Train acc: 0.531
+[2023-03-22 20:12:23] - INFO: Epoch: 6, Train loss: 2.831, Epoch time = 281.330s
+[2023-03-22 20:13:01] - INFO: Epoch: 7, Batch[0/8], Train loss :2.682, Train acc: 0.615
+[2023-03-22 20:16:47] - INFO: Epoch: 7, Train loss: 2.848, Epoch time = 263.703s
+[2023-03-22 20:16:55] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:16:55] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:17:03] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:17:03] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:17:03] - INFO: Accuracy on val 0.640
+[2023-03-22 20:17:40] - INFO: Epoch: 8, Batch[0/8], Train loss :2.733, Train acc: 0.552
+[2023-03-22 20:21:30] - INFO: Epoch: 8, Train loss: 2.365, Epoch time = 267.650s
+[2023-03-22 20:22:08] - INFO: Epoch: 9, Batch[0/8], Train loss :2.406, Train acc: 0.562
+[2023-03-22 20:26:01] - INFO: Epoch: 9, Train loss: 2.277, Epoch time = 271.004s
+[2023-03-22 20:26:10] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:26:10] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:26:17] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:26:17] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:26:17] - INFO: Accuracy on val 0.640
+[2023-03-22 20:26:56] - INFO: Epoch: 10, Batch[0/8], Train loss :2.293, Train acc: 0.562
+[2023-03-22 20:30:52] - INFO: Epoch: 10, Train loss: 2.066, Epoch time = 274.374s
+[2023-03-22 20:31:31] - INFO: Epoch: 11, Batch[0/8], Train loss :1.768, Train acc: 0.635
+[2023-03-22 20:35:30] - INFO: Epoch: 11, Train loss: 1.816, Epoch time = 278.247s
+[2023-03-22 20:35:39] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:35:39] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:35:47] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:35:47] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:35:47] - INFO: Accuracy on val 0.674
+[2023-03-22 20:36:27] - INFO: Epoch: 12, Batch[0/8], Train loss :2.104, Train acc: 0.615
+[2023-03-22 20:40:21] - INFO: Epoch: 12, Train loss: 1.511, Epoch time = 273.845s
+[2023-03-22 20:40:59] - INFO: Epoch: 13, Batch[0/8], Train loss :1.767, Train acc: 0.646
+[2023-03-22 20:44:45] - INFO: Epoch: 13, Train loss: 1.513, Epoch time = 263.593s
+[2023-03-22 20:44:54] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:44:54] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:45:00] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:45:00] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:45:00] - INFO: Accuracy on val 0.669
+[2023-03-22 20:45:38] - INFO: Epoch: 14, Batch[0/8], Train loss :1.118, Train acc: 0.792
+[2023-03-22 20:49:28] - INFO: Epoch: 14, Train loss: 1.274, Epoch time = 267.928s
+[2023-03-22 20:50:07] - INFO: Epoch: 15, Batch[0/8], Train loss :1.228, Train acc: 0.740
+[2023-03-22 20:54:01] - INFO: Epoch: 15, Train loss: 1.132, Epoch time = 272.429s
+[2023-03-22 20:54:10] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:54:10] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:54:17] - INFO: y_type:torch.LongTensor
+[2023-03-22 20:54:17] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 20:54:17] - INFO: Accuracy on val 0.669
+[2023-03-22 20:54:56] - INFO: Epoch: 16, Batch[0/8], Train loss :1.030, Train acc: 0.833
+[2023-03-22 20:58:52] - INFO: Epoch: 16, Train loss: 1.157, Epoch time = 275.517s
+[2023-03-22 20:59:30] - INFO: Epoch: 17, Batch[0/8], Train loss :1.291, Train acc: 0.760
+[2023-03-22 21:03:27] - INFO: Epoch: 17, Train loss: 1.036, Epoch time = 274.558s
+[2023-03-22 21:03:36] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:03:36] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:03:43] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:03:43] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:03:43] - INFO: Accuracy on val 0.651
+[2023-03-22 21:04:22] - INFO: Epoch: 18, Batch[0/8], Train loss :0.958, Train acc: 0.844
+[2023-03-22 21:08:12] - INFO: Epoch: 18, Train loss: 0.930, Epoch time = 269.203s
+[2023-03-22 21:08:49] - INFO: Epoch: 19, Batch[0/8], Train loss :1.059, Train acc: 0.823
+[2023-03-22 21:12:37] - INFO: Epoch: 19, Train loss: 0.856, Epoch time = 264.659s
+[2023-03-22 21:12:46] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:12:46] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:12:53] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:12:53] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:12:53] - INFO: Accuracy on val 0.576
+[2023-03-22 21:13:32] - INFO: Epoch: 20, Batch[0/8], Train loss :0.740, Train acc: 0.885
+[2023-03-22 21:17:27] - INFO: Epoch: 20, Train loss: 0.842, Epoch time = 274.379s
+[2023-03-22 21:18:07] - INFO: Epoch: 21, Batch[0/8], Train loss :0.656, Train acc: 0.875
+[2023-03-22 21:22:05] - INFO: Epoch: 21, Train loss: 0.787, Epoch time = 277.431s
+[2023-03-22 21:22:14] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:22:14] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:22:23] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:22:23] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:22:23] - INFO: Accuracy on val 0.628
+[2023-03-22 21:23:02] - INFO: Epoch: 22, Batch[0/8], Train loss :0.875, Train acc: 0.854
+[2023-03-22 21:26:55] - INFO: Epoch: 22, Train loss: 0.647, Epoch time = 271.987s
+[2023-03-22 21:27:34] - INFO: Epoch: 23, Batch[0/8], Train loss :0.472, Train acc: 0.948
+[2023-03-22 21:31:26] - INFO: Epoch: 23, Train loss: 0.551, Epoch time = 271.070s
+[2023-03-22 21:31:35] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:31:35] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:31:42] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:31:42] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:31:42] - INFO: Accuracy on val 0.645
+[2023-03-22 21:32:19] - INFO: Epoch: 24, Batch[0/8], Train loss :0.495, Train acc: 0.938
+[2023-03-22 21:36:08] - INFO: Epoch: 24, Train loss: 0.554, Epoch time = 265.998s
+[2023-03-22 21:36:47] - INFO: Epoch: 25, Batch[0/8], Train loss :0.594, Train acc: 0.906
+[2023-03-22 21:40:41] - INFO: Epoch: 25, Train loss: 0.474, Epoch time = 273.699s
+[2023-03-22 21:40:50] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:40:50] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:40:57] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:40:57] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:40:57] - INFO: Accuracy on val 0.640
+[2023-03-22 21:41:36] - INFO: Epoch: 26, Batch[0/8], Train loss :0.370, Train acc: 0.938
+[2023-03-22 21:45:25] - INFO: Epoch: 26, Train loss: 0.429, Epoch time = 267.658s
+[2023-03-22 21:46:07] - INFO: Epoch: 27, Batch[0/8], Train loss :0.305, Train acc: 0.969
+[2023-03-22 21:50:00] - INFO: Epoch: 27, Train loss: 0.382, Epoch time = 275.606s
+[2023-03-22 21:50:11] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:50:11] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:50:20] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:50:20] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:50:20] - INFO: Accuracy on val 0.645
+[2023-03-22 21:50:58] - INFO: Epoch: 28, Batch[0/8], Train loss :0.516, Train acc: 0.917
+[2023-03-22 21:54:51] - INFO: Epoch: 28, Train loss: 0.358, Epoch time = 271.152s
+[2023-03-22 21:55:30] - INFO: Epoch: 29, Batch[0/8], Train loss :0.350, Train acc: 0.927
+[2023-03-22 21:59:18] - INFO: Epoch: 29, Train loss: 0.330, Epoch time = 267.101s
+[2023-03-22 21:59:27] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:59:27] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:59:34] - INFO: y_type:torch.LongTensor
+[2023-03-22 21:59:34] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 21:59:34] - INFO: Accuracy on val 0.616
+[2023-03-22 22:00:11] - INFO: Epoch: 30, Batch[0/8], Train loss :0.416, Train acc: 0.927
+[2023-03-22 22:04:05] - INFO: Epoch: 30, Train loss: 0.346, Epoch time = 270.973s
+[2023-03-22 22:04:43] - INFO: Epoch: 31, Batch[0/8], Train loss :0.416, Train acc: 0.927
+[2023-03-22 22:08:32] - INFO: Epoch: 31, Train loss: 0.290, Epoch time = 267.807s
+[2023-03-22 22:08:41] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:08:41] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:08:48] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:08:48] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:08:48] - INFO: Accuracy on val 0.610
+[2023-03-22 22:09:26] - INFO: Epoch: 32, Batch[0/8], Train loss :0.275, Train acc: 0.958
+[2023-03-22 22:13:13] - INFO: Epoch: 32, Train loss: 0.350, Epoch time = 265.408s
+[2023-03-22 22:13:52] - INFO: Epoch: 33, Batch[0/8], Train loss :0.334, Train acc: 0.938
+[2023-03-22 22:17:44] - INFO: Epoch: 33, Train loss: 0.294, Epoch time = 270.768s
+[2023-03-22 22:17:53] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:17:53] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:18:00] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:18:00] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:18:00] - INFO: Accuracy on val 0.634
+[2023-03-22 22:18:38] - INFO: Epoch: 34, Batch[0/8], Train loss :0.232, Train acc: 0.958
+[2023-03-22 22:22:28] - INFO: Epoch: 34, Train loss: 0.248, Epoch time = 267.918s
+[2023-03-22 22:23:05] - INFO: Epoch: 35, Batch[0/8], Train loss :0.428, Train acc: 0.896
+[2023-03-22 22:26:55] - INFO: Epoch: 35, Train loss: 0.262, Epoch time = 266.640s
+[2023-03-22 22:27:04] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:27:04] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:27:11] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:27:11] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:27:11] - INFO: Accuracy on val 0.616
+[2023-03-22 22:27:49] - INFO: Epoch: 36, Batch[0/8], Train loss :0.206, Train acc: 0.958
+[2023-03-22 22:31:42] - INFO: Epoch: 36, Train loss: 0.255, Epoch time = 271.179s
+[2023-03-22 22:32:20] - INFO: Epoch: 37, Batch[0/8], Train loss :0.188, Train acc: 0.979
+[2023-03-22 22:36:06] - INFO: Epoch: 37, Train loss: 0.226, Epoch time = 264.159s
+[2023-03-22 22:36:15] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:36:15] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:36:21] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:36:21] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:36:21] - INFO: Accuracy on val 0.651
+[2023-03-22 22:37:00] - INFO: Epoch: 38, Batch[0/8], Train loss :0.230, Train acc: 0.948
+[2023-03-22 22:40:52] - INFO: Epoch: 38, Train loss: 0.251, Epoch time = 270.612s
+[2023-03-22 22:41:32] - INFO: Epoch: 39, Batch[0/8], Train loss :0.314, Train acc: 0.948
+[2023-03-22 22:45:25] - INFO: Epoch: 39, Train loss: 0.237, Epoch time = 272.650s
+[2023-03-22 22:45:33] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:45:33] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:45:40] - INFO: y_type:torch.LongTensor
+[2023-03-22 22:45:40] - INFO: logistic_type:torch.LongTensor
+[2023-03-22 22:45:40] - INFO: Accuracy on val 0.581
+[2023-03-22 22:46:18] - INFO: Epoch: 40, Batch[0/8], Train loss :0.227, Train acc: 0.969

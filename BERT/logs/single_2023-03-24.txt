@@ -1,0 +1,757 @@
+[2023-03-24 01:20:22] - INFO: ÊàêÂäüÂØºÂÖ•BERTÈÖçÁΩÆÊñá‰ª∂ /root/project/final_model/BERT/bert_base_chinese/config.json
+[2023-03-24 01:20:22] - INFO:  ### Â∞ÜÂΩìÂâçÈÖçÁΩÆÊâìÂç∞Âà∞Êó•ÂøóÊñá‰ª∂‰∏≠ 
+[2023-03-24 01:20:22] - INFO: ###  project_dir = /root/project/final_model/BERT
+[2023-03-24 01:20:22] - INFO: ###  dataset_dir = /root/project/final_model/BERT/data/SingleSentenceClassification
+[2023-03-24 01:20:22] - INFO: ###  pretrained_model_dir = /root/project/final_model/BERT/bert_base_chinese
+[2023-03-24 01:20:22] - INFO: ###  vocab_path = /root/project/final_model/BERT/bert_base_chinese/vocab.txt
+[2023-03-24 01:20:22] - INFO: ###  device = cuda:0
+[2023-03-24 01:20:22] - INFO: ###  train_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-24 01:20:22] - INFO: ###  val_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-24 01:20:22] - INFO: ###  test_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-24 01:20:22] - INFO: ###  predict_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/predict.txt
+[2023-03-24 01:20:22] - INFO: ###  model_save_dir = /root/project/final_model/BERT/cache
+[2023-03-24 01:20:22] - INFO: ###  logs_save_dir = /root/project/final_model/BERT/logs
+[2023-03-24 01:20:22] - INFO: ###  split_sep = _!_
+[2023-03-24 01:20:22] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 01:20:22] - INFO: ###  batch_size = 32
+[2023-03-24 01:20:22] - INFO: ###  max_sen_len = None
+[2023-03-24 01:20:22] - INFO: ###  num_labels = 8191
+[2023-03-24 01:20:22] - INFO: ###  epochs = 10
+[2023-03-24 01:20:22] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 01:20:22] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 01:20:22] - INFO: ###  vocab_size = 21128
+[2023-03-24 01:20:22] - INFO: ###  hidden_size = 768
+[2023-03-24 01:20:22] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 01:20:22] - INFO: ###  num_attention_heads = 12
+[2023-03-24 01:20:22] - INFO: ###  hidden_act = gelu
+[2023-03-24 01:20:22] - INFO: ###  intermediate_size = 3072
+[2023-03-24 01:20:22] - INFO: ###  pad_token_id = 0
+[2023-03-24 01:20:22] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 01:20:22] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 01:20:22] - INFO: ###  type_vocab_size = 2
+[2023-03-24 01:20:22] - INFO: ###  initializer_range = 0.02
+[2023-03-24 01:20:22] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 01:20:22] - INFO: ###  directionality = bidi
+[2023-03-24 01:20:22] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 01:20:22] - INFO: ###  model_type = bert
+[2023-03-24 01:20:22] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 01:20:22] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 01:20:22] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 01:20:22] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 01:20:22] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 01:20:24] - INFO: ## Ê≥®ÊÑèÔºåÊ≠£Âú®‰ΩøÁî®Êú¨Âú∞MyTransformer‰∏≠ÁöÑMyMultiHeadAttentionÂÆûÁé∞
+[2023-03-24 01:20:27] - INFO: ## ÊàêÂäüËΩΩÂÖ•Â∑≤ÊúâÊ®°ÂûãÔºåËøõË°åÈ¢ÑÊµã......
+[2023-03-24 01:20:27] - INFO: ÁºìÂ≠òÊñá‰ª∂ /root/project/final_model/BERT/data/SingleSentenceClassification/predict_None.pt ‰∏çÂ≠òÂú®ÔºåÈáçÊñ∞Â§ÑÁêÜÂπ∂ÁºìÂ≠òÔºÅ
+[2023-03-24 01:28:49] - INFO: ÊàêÂäüÂØºÂÖ•BERTÈÖçÁΩÆÊñá‰ª∂ /root/project/final_model/BERT/bert_base_chinese/config.json
+[2023-03-24 01:28:49] - INFO:  ### Â∞ÜÂΩìÂâçÈÖçÁΩÆÊâìÂç∞Âà∞Êó•ÂøóÊñá‰ª∂‰∏≠ 
+[2023-03-24 01:28:49] - INFO: ###  project_dir = /root/project/final_model/BERT
+[2023-03-24 01:28:49] - INFO: ###  dataset_dir = /root/project/final_model/BERT/data/SingleSentenceClassification
+[2023-03-24 01:28:49] - INFO: ###  pretrained_model_dir = /root/project/final_model/BERT/bert_base_chinese
+[2023-03-24 01:28:49] - INFO: ###  vocab_path = /root/project/final_model/BERT/bert_base_chinese/vocab.txt
+[2023-03-24 01:28:49] - INFO: ###  device = cuda:0
+[2023-03-24 01:28:49] - INFO: ###  train_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/train.txt
+[2023-03-24 01:28:49] - INFO: ###  val_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/val.txt
+[2023-03-24 01:28:49] - INFO: ###  test_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/test.txt
+[2023-03-24 01:28:49] - INFO: ###  predict_file_path = /root/project/final_model/BERT/data/SingleSentenceClassification/predict.txt
+[2023-03-24 01:28:49] - INFO: ###  model_save_dir = /root/project/final_model/BERT/cache
+[2023-03-24 01:28:49] - INFO: ###  logs_save_dir = /root/project/final_model/BERT/logs
+[2023-03-24 01:28:49] - INFO: ###  split_sep = _!_
+[2023-03-24 01:28:49] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 01:28:49] - INFO: ###  batch_size = 32
+[2023-03-24 01:28:49] - INFO: ###  max_sen_len = None
+[2023-03-24 01:28:49] - INFO: ###  num_labels = 8191
+[2023-03-24 01:28:49] - INFO: ###  epochs = 10
+[2023-03-24 01:28:49] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 01:28:49] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 01:28:49] - INFO: ###  vocab_size = 21128
+[2023-03-24 01:28:49] - INFO: ###  hidden_size = 768
+[2023-03-24 01:28:49] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 01:28:49] - INFO: ###  num_attention_heads = 12
+[2023-03-24 01:28:49] - INFO: ###  hidden_act = gelu
+[2023-03-24 01:28:49] - INFO: ###  intermediate_size = 3072
+[2023-03-24 01:28:49] - INFO: ###  pad_token_id = 0
+[2023-03-24 01:28:49] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 01:28:49] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 01:28:49] - INFO: ###  type_vocab_size = 2
+[2023-03-24 01:28:49] - INFO: ###  initializer_range = 0.02
+[2023-03-24 01:28:49] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 01:28:49] - INFO: ###  directionality = bidi
+[2023-03-24 01:28:49] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 01:28:49] - INFO: ###  model_type = bert
+[2023-03-24 01:28:49] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 01:28:49] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 01:28:49] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 01:28:49] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 01:28:49] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 01:28:52] - INFO: ## Ê≥®ÊÑèÔºåÊ≠£Âú®‰ΩøÁî®Êú¨Âú∞MyTransformer‰∏≠ÁöÑMyMultiHeadAttentionÂÆûÁé∞
+[2023-03-24 01:28:52] - INFO: ## ÊàêÂäüËΩΩÂÖ•Â∑≤ÊúâÊ®°ÂûãÔºåËøõË°åÈ¢ÑÊµã......
+[2023-03-24 01:28:52] - INFO: ÁºìÂ≠òÊñá‰ª∂ /root/project/final_model/BERT/data/SingleSentenceClassification/predict_None.pt ‰∏çÂ≠òÂú®ÔºåÈáçÊñ∞Â§ÑÁêÜÂπ∂ÁºìÂ≠òÔºÅ
+[2023-03-24 19:11:56] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:11:56] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:11:56] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:11:56] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:11:56] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:11:56] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:11:56] - INFO: ###  device = cpu
+[2023-03-24 19:11:56] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:11:56] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:11:56] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:11:56] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:11:56] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:11:56] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:11:56] - INFO: ###  split_sep = _!_
+[2023-03-24 19:11:56] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:11:56] - INFO: ###  batch_size = 32
+[2023-03-24 19:11:56] - INFO: ###  max_sen_len = None
+[2023-03-24 19:11:56] - INFO: ###  num_labels = 8191
+[2023-03-24 19:11:56] - INFO: ###  epochs = 10
+[2023-03-24 19:11:56] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:11:56] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:11:56] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:11:56] - INFO: ###  hidden_size = 768
+[2023-03-24 19:11:56] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:11:56] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:11:56] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:11:56] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:11:56] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:11:56] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:11:56] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:11:56] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:11:56] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:11:56] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:11:56] - INFO: ###  directionality = bidi
+[2023-03-24 19:11:56] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:11:56] - INFO: ###  model_type = bert
+[2023-03-24 19:11:56] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:11:56] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:11:56] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:11:56] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:11:56] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:11:57] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:11:58] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Source\citi\Citicup-Web\py\NLP\__init__.py", line 50, in find_Strategy
+    default_EP, default_EC, default_PW, default_CE, default_Sf, default_Tr = strategy.find_Strategy(pdf_name,bert_flag)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\strategy.py", line 42, in find_Strategy
+    res_lis = run_bert_classification()
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 207, in run_bert_classification
+    res_lis = predict(model_config)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 139, in predict
+    loaded_paras = torch.load(model_save_path)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+[2023-03-24 19:14:50] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:14:50] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:14:50] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:14:50] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:14:50] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:14:50] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:14:50] - INFO: ###  device = cpu
+[2023-03-24 19:14:50] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:14:50] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:14:50] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:14:50] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:14:50] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:14:50] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:14:50] - INFO: ###  split_sep = _!_
+[2023-03-24 19:14:50] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:14:50] - INFO: ###  batch_size = 32
+[2023-03-24 19:14:50] - INFO: ###  max_sen_len = None
+[2023-03-24 19:14:50] - INFO: ###  num_labels = 8191
+[2023-03-24 19:14:50] - INFO: ###  epochs = 10
+[2023-03-24 19:14:50] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:14:50] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:14:50] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:14:50] - INFO: ###  hidden_size = 768
+[2023-03-24 19:14:50] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:14:50] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:14:50] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:14:50] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:14:50] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:14:50] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:14:50] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:14:50] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:14:50] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:14:50] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:14:50] - INFO: ###  directionality = bidi
+[2023-03-24 19:14:50] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:14:50] - INFO: ###  model_type = bert
+[2023-03-24 19:14:50] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:14:50] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:14:50] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:14:50] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:14:50] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:14:51] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:14:52] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Source\citi\Citicup-Web\py\NLP\__init__.py", line 50, in find_Strategy
+    default_EP, default_EC, default_PW, default_CE, default_Sf, default_Tr = strategy.find_Strategy(pdf_name,bert_flag)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\strategy.py", line 42, in find_Strategy
+    res_lis = run_bert_classification()
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 208, in run_bert_classification
+    res_lis = predict(model_config)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 140, in predict
+    loaded_paras = torch.load(model_save_path)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+[2023-03-24 19:16:36] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:16:36] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:16:36] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:16:36] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:16:36] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:16:36] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:16:36] - INFO: ###  device = cpu
+[2023-03-24 19:16:36] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:16:36] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:16:36] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:16:36] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:16:36] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:16:36] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:16:36] - INFO: ###  split_sep = _!_
+[2023-03-24 19:16:36] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:16:36] - INFO: ###  batch_size = 32
+[2023-03-24 19:16:36] - INFO: ###  max_sen_len = None
+[2023-03-24 19:16:36] - INFO: ###  num_labels = 8191
+[2023-03-24 19:16:36] - INFO: ###  epochs = 10
+[2023-03-24 19:16:36] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:16:36] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:16:36] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:16:36] - INFO: ###  hidden_size = 768
+[2023-03-24 19:16:36] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:16:36] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:16:36] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:16:36] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:16:36] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:16:36] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:16:36] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:16:36] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:16:36] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:16:36] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:16:36] - INFO: ###  directionality = bidi
+[2023-03-24 19:16:36] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:16:36] - INFO: ###  model_type = bert
+[2023-03-24 19:16:36] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:16:36] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:16:36] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:16:36] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:16:36] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:16:37] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:16:37] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Source\citi\Citicup-Web\py\NLP\__init__.py", line 50, in find_Strategy
+    default_EP, default_EC, default_PW, default_CE, default_Sf, default_Tr = strategy.find_Strategy(pdf_name,bert_flag)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\strategy.py", line 42, in find_Strategy
+    res_lis = run_bert_classification()
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 208, in run_bert_classification
+    res_lis = predict(model_config)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 140, in predict
+    loaded_paras = torch.load(model_save_path)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+[2023-03-24 19:19:15] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:19:15] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:19:15] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:19:15] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:19:15] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:19:15] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:19:15] - INFO: ###  device = cpu
+[2023-03-24 19:19:15] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:19:15] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:19:15] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:19:15] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:19:15] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:19:15] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:19:15] - INFO: ###  split_sep = _!_
+[2023-03-24 19:19:15] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:19:15] - INFO: ###  batch_size = 32
+[2023-03-24 19:19:15] - INFO: ###  max_sen_len = None
+[2023-03-24 19:19:15] - INFO: ###  num_labels = 8191
+[2023-03-24 19:19:15] - INFO: ###  epochs = 10
+[2023-03-24 19:19:15] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:19:15] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:19:15] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:19:15] - INFO: ###  hidden_size = 768
+[2023-03-24 19:19:15] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:19:15] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:19:15] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:19:15] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:19:15] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:19:15] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:19:15] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:19:15] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:19:15] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:19:15] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:19:15] - INFO: ###  directionality = bidi
+[2023-03-24 19:19:15] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:19:15] - INFO: ###  model_type = bert
+[2023-03-24 19:19:15] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:19:15] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:19:15] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:19:15] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:19:15] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:19:16] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:19:17] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Source\citi\Citicup-Web\py\NLP\__init__.py", line 50, in find_Strategy
+    default_EP, default_EC, default_PW, default_CE, default_Sf, default_Tr = strategy.find_Strategy(pdf_name,bert_flag)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\strategy.py", line 42, in find_Strategy
+    res_lis = run_bert_classification()
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 208, in run_bert_classification
+    res_lis = predict(model_config)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 140, in predict
+    loaded_paras = torch.load(model_save_path)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+[2023-03-24 19:20:17] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:20:17] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:20:17] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:20:17] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:20:17] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:20:17] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:20:17] - INFO: ###  device = cpu
+[2023-03-24 19:20:17] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:20:17] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:20:17] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:20:17] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:20:17] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:20:17] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:20:17] - INFO: ###  split_sep = _!_
+[2023-03-24 19:20:17] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:20:17] - INFO: ###  batch_size = 32
+[2023-03-24 19:20:17] - INFO: ###  max_sen_len = None
+[2023-03-24 19:20:17] - INFO: ###  num_labels = 8191
+[2023-03-24 19:20:17] - INFO: ###  epochs = 10
+[2023-03-24 19:20:17] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:20:17] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:20:17] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:20:17] - INFO: ###  hidden_size = 768
+[2023-03-24 19:20:17] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:20:17] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:20:17] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:20:17] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:20:17] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:20:17] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:20:17] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:20:17] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:20:17] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:20:17] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:20:17] - INFO: ###  directionality = bidi
+[2023-03-24 19:20:17] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:20:17] - INFO: ###  model_type = bert
+[2023-03-24 19:20:17] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:20:17] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:20:17] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:20:17] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:20:17] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:20:18] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:20:19] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Source\citi\Citicup-Web\py\NLP\__init__.py", line 50, in find_Strategy
+    default_EP, default_EC, default_PW, default_CE, default_Sf, default_Tr = strategy.find_Strategy(pdf_name,bert_flag)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\strategy.py", line 42, in find_Strategy
+    res_lis = run_bert_classification()
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 208, in run_bert_classification
+    res_lis = predict(model_config)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\Tasks\TaskForSingleSentenceClassification.py", line 140, in predict
+    loaded_paras = torch.load(model_save_path)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\torch\serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+[2023-03-24 19:22:20] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:22:20] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:22:20] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:22:20] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:22:20] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:22:20] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:22:20] - INFO: ###  device = cpu
+[2023-03-24 19:22:20] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:22:20] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:22:20] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:22:20] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:22:20] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:22:20] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:22:20] - INFO: ###  split_sep = _!_
+[2023-03-24 19:22:20] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:22:20] - INFO: ###  batch_size = 32
+[2023-03-24 19:22:20] - INFO: ###  max_sen_len = None
+[2023-03-24 19:22:20] - INFO: ###  num_labels = 8191
+[2023-03-24 19:22:20] - INFO: ###  epochs = 10
+[2023-03-24 19:22:20] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:22:20] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:22:20] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:22:20] - INFO: ###  hidden_size = 768
+[2023-03-24 19:22:20] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:22:20] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:22:20] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:22:20] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:22:20] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:22:20] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:22:20] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:22:20] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:22:20] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:22:20] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:22:20] - INFO: ###  directionality = bidi
+[2023-03-24 19:22:20] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:22:20] - INFO: ###  model_type = bert
+[2023-03-24 19:22:20] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:22:20] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:22:20] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:22:20] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:22:20] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:22:21] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:22:22] - INFO: ## ≥…π¶‘ÿ»Î“—”–ƒ£–Õ£¨Ω¯––‘§≤‚......
+[2023-03-24 19:22:22] - INFO: ª∫¥ÊŒƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict_None.pt ≤ª¥Ê‘⁄£¨÷ÿ–¬¥¶¿Ì≤¢ª∫¥Ê£°
+[2023-03-24 19:38:40] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 19:38:40] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 19:38:40] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 19:38:40] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 19:38:40] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 19:38:40] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 19:38:40] - INFO: ###  device = cpu
+[2023-03-24 19:38:40] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 19:38:40] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 19:38:40] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 19:38:40] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 19:38:40] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 19:38:40] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 19:38:40] - INFO: ###  split_sep = _!_
+[2023-03-24 19:38:40] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 19:38:40] - INFO: ###  batch_size = 32
+[2023-03-24 19:38:40] - INFO: ###  max_sen_len = None
+[2023-03-24 19:38:40] - INFO: ###  num_labels = 8191
+[2023-03-24 19:38:40] - INFO: ###  epochs = 10
+[2023-03-24 19:38:40] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 19:38:40] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 19:38:40] - INFO: ###  vocab_size = 21128
+[2023-03-24 19:38:40] - INFO: ###  hidden_size = 768
+[2023-03-24 19:38:40] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 19:38:40] - INFO: ###  num_attention_heads = 12
+[2023-03-24 19:38:40] - INFO: ###  hidden_act = gelu
+[2023-03-24 19:38:40] - INFO: ###  intermediate_size = 3072
+[2023-03-24 19:38:40] - INFO: ###  pad_token_id = 0
+[2023-03-24 19:38:40] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 19:38:40] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 19:38:40] - INFO: ###  type_vocab_size = 2
+[2023-03-24 19:38:40] - INFO: ###  initializer_range = 0.02
+[2023-03-24 19:38:40] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 19:38:40] - INFO: ###  directionality = bidi
+[2023-03-24 19:38:40] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 19:38:40] - INFO: ###  model_type = bert
+[2023-03-24 19:38:40] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 19:38:40] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 19:38:40] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 19:38:40] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 19:38:40] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 19:38:41] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 19:38:41] - INFO: ## ≥…π¶‘ÿ»Î“—”–ƒ£–Õ£¨Ω¯––‘§≤‚......
+[2023-03-24 19:38:41] - INFO: ª∫¥ÊŒƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict_None.pt ≤ª¥Ê‘⁄£¨÷ÿ–¬¥¶¿Ì≤¢ª∫¥Ê£°
+[2023-03-24 19:59:15] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2129, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response tuple. The tuple must have the form (body, status, headers), (body, status), or (body, headers).
+[2023-03-24 20:06:09] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 20:06:09] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 20:06:09] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 20:06:09] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 20:06:09] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 20:06:09] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 20:06:09] - INFO: ###  device = cpu
+[2023-03-24 20:06:09] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 20:06:09] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 20:06:09] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 20:06:09] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 20:06:09] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 20:06:09] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 20:06:09] - INFO: ###  split_sep = _!_
+[2023-03-24 20:06:09] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 20:06:09] - INFO: ###  batch_size = 32
+[2023-03-24 20:06:09] - INFO: ###  max_sen_len = None
+[2023-03-24 20:06:09] - INFO: ###  num_labels = 8191
+[2023-03-24 20:06:09] - INFO: ###  epochs = 10
+[2023-03-24 20:06:09] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 20:06:09] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 20:06:09] - INFO: ###  vocab_size = 21128
+[2023-03-24 20:06:09] - INFO: ###  hidden_size = 768
+[2023-03-24 20:06:09] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 20:06:09] - INFO: ###  num_attention_heads = 12
+[2023-03-24 20:06:09] - INFO: ###  hidden_act = gelu
+[2023-03-24 20:06:09] - INFO: ###  intermediate_size = 3072
+[2023-03-24 20:06:09] - INFO: ###  pad_token_id = 0
+[2023-03-24 20:06:09] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 20:06:09] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 20:06:09] - INFO: ###  type_vocab_size = 2
+[2023-03-24 20:06:09] - INFO: ###  initializer_range = 0.02
+[2023-03-24 20:06:09] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 20:06:09] - INFO: ###  directionality = bidi
+[2023-03-24 20:06:09] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 20:06:09] - INFO: ###  model_type = bert
+[2023-03-24 20:06:09] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 20:06:09] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 20:06:09] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 20:06:09] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 20:06:09] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 20:06:09] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 20:06:10] - INFO: ## ≥…π¶‘ÿ»Î“—”–ƒ£–Õ£¨Ω¯––‘§≤‚......
+[2023-03-24 20:06:10] - INFO: ª∫¥ÊŒƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict_None.pt ≤ª¥Ê‘⁄£¨÷ÿ–¬¥¶¿Ì≤¢ª∫¥Ê£°
+[2023-03-24 20:11:58] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 20:11:58] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 20:11:58] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 20:11:58] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 20:11:58] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 20:11:58] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 20:11:58] - INFO: ###  device = cpu
+[2023-03-24 20:11:58] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 20:11:58] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 20:11:58] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 20:11:58] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 20:11:58] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 20:11:58] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 20:11:58] - INFO: ###  split_sep = _!_
+[2023-03-24 20:11:58] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 20:11:58] - INFO: ###  batch_size = 32
+[2023-03-24 20:11:58] - INFO: ###  max_sen_len = None
+[2023-03-24 20:11:58] - INFO: ###  num_labels = 8191
+[2023-03-24 20:11:58] - INFO: ###  epochs = 10
+[2023-03-24 20:11:58] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 20:11:58] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 20:11:58] - INFO: ###  vocab_size = 21128
+[2023-03-24 20:11:58] - INFO: ###  hidden_size = 768
+[2023-03-24 20:11:58] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 20:11:58] - INFO: ###  num_attention_heads = 12
+[2023-03-24 20:11:58] - INFO: ###  hidden_act = gelu
+[2023-03-24 20:11:58] - INFO: ###  intermediate_size = 3072
+[2023-03-24 20:11:58] - INFO: ###  pad_token_id = 0
+[2023-03-24 20:11:58] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 20:11:58] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 20:11:58] - INFO: ###  type_vocab_size = 2
+[2023-03-24 20:11:58] - INFO: ###  initializer_range = 0.02
+[2023-03-24 20:11:58] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 20:11:58] - INFO: ###  directionality = bidi
+[2023-03-24 20:11:58] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 20:11:58] - INFO: ###  model_type = bert
+[2023-03-24 20:11:58] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 20:11:58] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 20:11:58] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 20:11:58] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 20:11:58] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 20:12:00] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 20:12:00] - INFO: ## ≥…π¶‘ÿ»Î“—”–ƒ£–Õ£¨Ω¯––‘§≤‚......
+[2023-03-24 20:12:00] - INFO: ª∫¥ÊŒƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict_None.pt ≤ª¥Ê‘⁄£¨÷ÿ–¬¥¶¿Ì≤¢ª∫¥Ê£°
+[2023-03-24 20:13:03] - ERROR: Exception on /strategy [GET]
+Traceback (most recent call last):
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\combat\.conda\envs\citi\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Source\citi\Citicup-Web\py\NLP\__init__.py", line 50, in find_Strategy
+    default_EP, default_EC, default_PW, default_CE, default_Sf, default_Tr = strategy.find_Strategy(pdf_name,bert_flag)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\strategy.py", line 34, in find_Strategy
+    run_extra()
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\new_extra.py", line 108, in run_extra
+    cont_lis = extra_pdf(obj_dir,basename,if_depun)
+  File "D:\Source\citi\Citicup-Web\py\NLP\strategy\new_extra.py", line 43, in extra_pdf
+    pdf_file = open(obj_dir+basename+".pdf", 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './strategy/cache/64b0e882-7b00-43c9-bcc3-6cd0580768ef.pdf'
+[2023-03-24 20:13:45] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 20:13:45] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 20:13:45] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 20:13:45] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 20:13:45] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 20:13:45] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 20:13:45] - INFO: ###  device = cpu
+[2023-03-24 20:13:45] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 20:13:45] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 20:13:45] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 20:13:45] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 20:13:45] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 20:13:45] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 20:13:45] - INFO: ###  split_sep = _!_
+[2023-03-24 20:13:45] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 20:13:45] - INFO: ###  batch_size = 32
+[2023-03-24 20:13:45] - INFO: ###  max_sen_len = None
+[2023-03-24 20:13:45] - INFO: ###  num_labels = 8191
+[2023-03-24 20:13:45] - INFO: ###  epochs = 10
+[2023-03-24 20:13:45] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 20:13:45] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 20:13:45] - INFO: ###  vocab_size = 21128
+[2023-03-24 20:13:45] - INFO: ###  hidden_size = 768
+[2023-03-24 20:13:45] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 20:13:45] - INFO: ###  num_attention_heads = 12
+[2023-03-24 20:13:45] - INFO: ###  hidden_act = gelu
+[2023-03-24 20:13:45] - INFO: ###  intermediate_size = 3072
+[2023-03-24 20:13:45] - INFO: ###  pad_token_id = 0
+[2023-03-24 20:13:45] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 20:13:45] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 20:13:45] - INFO: ###  type_vocab_size = 2
+[2023-03-24 20:13:45] - INFO: ###  initializer_range = 0.02
+[2023-03-24 20:13:45] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 20:13:45] - INFO: ###  directionality = bidi
+[2023-03-24 20:13:45] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 20:13:45] - INFO: ###  model_type = bert
+[2023-03-24 20:13:45] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 20:13:45] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 20:13:45] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 20:13:45] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 20:13:45] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 20:13:47] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 20:13:47] - INFO: ## ≥…π¶‘ÿ»Î“—”–ƒ£–Õ£¨Ω¯––‘§≤‚......
+[2023-03-24 20:13:47] - INFO: ª∫¥ÊŒƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict_None.pt ≤ª¥Ê‘⁄£¨÷ÿ–¬¥¶¿Ì≤¢ª∫¥Ê£°
+[2023-03-24 20:51:50] - INFO: ≥…π¶µº»ÎBERT≈‰÷√Œƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\config.json
+[2023-03-24 20:51:50] - INFO:  ### Ω´µ±«∞≈‰÷√¥Ú”°µΩ»’÷æŒƒº˛÷– 
+[2023-03-24 20:51:50] - INFO: ###  project_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT
+[2023-03-24 20:51:50] - INFO: ###  dataset_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification
+[2023-03-24 20:51:50] - INFO: ###  pretrained_model_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese
+[2023-03-24 20:51:50] - INFO: ###  vocab_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\bert_base_chinese\vocab.txt
+[2023-03-24 20:51:50] - INFO: ###  device = cpu
+[2023-03-24 20:51:50] - INFO: ###  train_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\train.txt
+[2023-03-24 20:51:50] - INFO: ###  val_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\val.txt
+[2023-03-24 20:51:50] - INFO: ###  test_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\test.txt
+[2023-03-24 20:51:50] - INFO: ###  predict_file_path = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict.txt
+[2023-03-24 20:51:50] - INFO: ###  model_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\cache
+[2023-03-24 20:51:50] - INFO: ###  logs_save_dir = D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\logs
+[2023-03-24 20:51:50] - INFO: ###  split_sep = _!_
+[2023-03-24 20:51:50] - INFO: ###  is_sample_shuffle = True
+[2023-03-24 20:51:50] - INFO: ###  batch_size = 32
+[2023-03-24 20:51:50] - INFO: ###  max_sen_len = None
+[2023-03-24 20:51:50] - INFO: ###  num_labels = 8191
+[2023-03-24 20:51:50] - INFO: ###  epochs = 10
+[2023-03-24 20:51:50] - INFO: ###  model_val_per_epoch = 2
+[2023-03-24 20:51:50] - INFO: ###  max_position_embeddings = 512
+[2023-03-24 20:51:50] - INFO: ###  vocab_size = 21128
+[2023-03-24 20:51:50] - INFO: ###  hidden_size = 768
+[2023-03-24 20:51:50] - INFO: ###  num_hidden_layers = 12
+[2023-03-24 20:51:50] - INFO: ###  num_attention_heads = 12
+[2023-03-24 20:51:50] - INFO: ###  hidden_act = gelu
+[2023-03-24 20:51:50] - INFO: ###  intermediate_size = 3072
+[2023-03-24 20:51:50] - INFO: ###  pad_token_id = 0
+[2023-03-24 20:51:50] - INFO: ###  hidden_dropout_prob = 0.1
+[2023-03-24 20:51:50] - INFO: ###  attention_probs_dropout_prob = 0.1
+[2023-03-24 20:51:50] - INFO: ###  type_vocab_size = 2
+[2023-03-24 20:51:50] - INFO: ###  initializer_range = 0.02
+[2023-03-24 20:51:50] - INFO: ###  architectures = ['BertForMaskedLM']
+[2023-03-24 20:51:50] - INFO: ###  directionality = bidi
+[2023-03-24 20:51:50] - INFO: ###  layer_norm_eps = 1e-12
+[2023-03-24 20:51:50] - INFO: ###  model_type = bert
+[2023-03-24 20:51:50] - INFO: ###  pooler_fc_size = 768
+[2023-03-24 20:51:50] - INFO: ###  pooler_num_attention_heads = 12
+[2023-03-24 20:51:50] - INFO: ###  pooler_num_fc_layers = 3
+[2023-03-24 20:51:50] - INFO: ###  pooler_size_per_head = 128
+[2023-03-24 20:51:50] - INFO: ###  pooler_type = first_token_transform
+[2023-03-24 20:51:52] - INFO: ## ◊¢“‚£¨’˝‘⁄ π”√±æµÿMyTransformer÷–µƒMyMultiHeadAttention µœ÷
+[2023-03-24 20:51:52] - INFO: ## ≥…π¶‘ÿ»Î“—”–ƒ£–Õ£¨Ω¯––‘§≤‚......
+[2023-03-24 20:51:53] - INFO: ª∫¥ÊŒƒº˛ D:\Source\citi\Citicup-Web\py\NLP\strategy\BERT\data\SingleSentenceClassification\predict_None.pt ≤ª¥Ê‘⁄£¨÷ÿ–¬¥¶¿Ì≤¢ª∫¥Ê£°
